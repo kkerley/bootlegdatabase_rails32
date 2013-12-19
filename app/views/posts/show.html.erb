@@ -1,0 +1,72 @@
+<% content_for :title, "Blog - " + @post.title %>
+
+<div id="title">
+	<div class="cell">
+    	<h1><%= @post.title%></h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Posted by <%= @post.user.login %> | Category: <%= @post.category %></h2>
+	</div>
+</div>
+
+
+<div id="content">
+	<div id="left-col">
+		
+		<div class="padding">
+			<p class="small_gray">Posted <%= @post.created_at%></p>
+			<%= textilize @post.content %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		
+		
+		<p class="headline">Controls</p>
+		<div id="controls">
+			<div class="padding">
+				
+				
+				<% if current_user && current_user.admin? %>
+				<p>
+					<%= image_tag 'icons/page_edit.png', :align => 'absmiddle' %>
+					<%= link_to 'Edit post', edit_post_path(@post) %>
+				</p>
+				<p>
+					<%= image_tag 'icons/page_add.png', :align => 'absmiddle' %>
+					<%= link_to 'New post', new_post_path %>
+				</p>
+				<% end %>
+				<p>
+					<%= image_tag 'icons/page_white_stack.png', :align => 'absmiddle' %>
+					<%= link_to 'All posts', posts_path %>
+				</p>
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		<% if current_user && current_user.admin? %>
+				
+			<p class="headline">Edits History</p>
+			
+			<div id="versions" class="padding">
+				
+				<p>
+					Viewing version: <strong><%= @post.version %></strong> 
+					<%if @post.version > 1 %>
+						<br /><%= link_to '&gt;&gt; previous version', :version => @post.version-1 %>
+					<% end %>
+					<% if params[:version]%>
+						<br />See the <%= link_to 'Current version &lt;&lt;', :version => nil %>
+	  				<% end %>
+				</p>
+			</div>
+		<% end %>
+		
+	</div>
+</div>
+
+

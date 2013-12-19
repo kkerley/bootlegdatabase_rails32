@@ -1,0 +1,25 @@
+<div class="clear"></div>  
+
+<% form_for @user_session do |form| %>  
+<%= form.error_messages %>  
+  
+  <p><%= form.label :login, "Username" %><br /> 
+    <%= form.text_field :login %>  
+ </p> 
+  <p><%= form.label :password %><br />
+    <%= form.password_field :password %>  
+  </p>
+  <p><%= form.label :remember_me, "Remember" %><br />  
+	<%= form.check_box :remember_me %> <span class="small_gray">You will stay logged in on this computer</span>
+ </p>
+
+  <p>  
+    <%= form.submit "Submit" %>  
+  </p>  
+
+
+<p class="small_gray label_margin"><strong>Have an account but...</strong><br />
+<%= link_to "Forgot your password?", new_password_reset_path %> Not a problem. Click that link and we'll get you setup with a new password fast.</p>
+<p class="small_gray label_margin"><strong>Don't have an account?</strong><br />
+	<%= link_to "Sign up now!", new_user_path %> It's fast and easy! You'll be adding/editing performance information in no time!</p>
+<% end %>  

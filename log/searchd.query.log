@@ -1,0 +1,1216 @@
+[Tue Jun  1 19:32:54.364 2010] 0.000 sec [all/2/rel 45 (0,20)] [performance_core] somewhat
+[Tue Jun  1 19:39:09.854 2010] 0.074 sec [all/2/rel 2 (0,20)] [performance_core] 09-10
+[Tue Jun  1 19:40:27.876 2010] 0.012 sec [all/2/rel 2 (0,20)] [performance_core] 09-10
+[Tue Jun  1 19:40:47.522 2010] 0.051 sec [all/2/rel 3 (0,20)] [performance_core] we're
+[Tue Jun  1 19:45:52.746 2010] 0.084 sec [all/2/rel 2 (0,20)] [performance_core] 09-10
+[Tue Jun  1 19:48:38.859 2010] 0.048 sec [all/2/rel 3 (0,20)] [performance_core] we're
+[Tue Jun  1 20:40:48.113 2010] 0.000 sec [all/2/rel 21 (0,20)] [performance_core] ruiner
+[Tue Jun  1 20:40:59.680 2010] 0.000 sec [all/2/rel 21 (0,20)] [performance_core] ruiner
+[Tue Jun  1 20:41:08.629 2010] 0.000 sec [all/2/rel 21 (0,20)] [performance_core] ruiner
+[Tue Jun  1 20:41:13.968 2010] 0.000 sec [all/2/rel 21 (0,20)] [performance_core] ruiner
+[Tue Jun  1 20:49:49.960 2010] 0.000 sec [all/2/rel 21 (25,25)] [performance_core] ruiner
+[Tue Jun  1 20:49:58.843 2010] 0.000 sec [all/2/rel 21 (0,25)] [performance_core] ruiner
+[Tue Jun  1 20:50:11.249 2010] 0.018 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Tue Jun  1 20:50:12.387 2010] 0.000 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Tue Jun  1 20:50:14.711 2010] 0.000 sec [all/2/rel 45 (25,25)] [performance_core] somewhat
+[Tue Jun  1 20:50:18.995 2010] 0.000 sec [all/2/rel 3 (0,25)] [performance_core] somewhat ryanj
+[Tue Jun  1 20:51:36.647 2010] 0.000 sec [all/2/rel 3 (0,25)] [performance_core] somewhat ryanj
+[Tue Jun  1 20:51:40.228 2010] 0.000 sec [all/2/rel 2 (0,25)] [performance_core] 09-10
+[Tue Jun  1 20:51:47.953 2010] 0.000 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Tue Jun  1 20:51:50.723 2010] 0.000 sec [all/2/rel 45 (25,25)] [performance_core] somewhat
+[Tue Jun  1 20:52:29.318 2010] 0.029 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 20:53:00.650 2010] 0.001 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 20:53:34.576 2010] 0.020 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 20:54:12.531 2010] 0.001 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 20:54:19.556 2010] 0.001 sec [scan/2/rel 192 (150,25)] [performance_core]
+[Tue Jun  1 20:54:48.860 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 21:37:04.341 2010] 0.077 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Tue Jun  1 21:55:28.576 2010] 0.070 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Wed Jun  2 04:54:38.694 2010] 0.048 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Wed Jun  2 05:19:50.997 2010] 0.000 sec [all/2/rel 45 (0,25)] [performance_core] becoming
+[Wed Jun  2 05:19:53.640 2010] 0.000 sec [all/2/rel 45 (25,25)] [performance_core] becoming
+[Wed Jun  2 08:17:39.099 2010] 0.037 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Wed Jun  2 08:17:42.670 2010] 0.000 sec [all/2/rel 45 (25,25)] [performance_core] somewhat
+[Wed Jun  2 10:25:46.165 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  2 11:25:56.448 2010] 0.021 sec [all/2/rel 3 (0,25)] [performance_core] somewhat ryanj
+[Wed Jun  2 11:25:56.813 2010] 0.014 sec [all/2/rel 2 (0,25)] [performance_core] 09-10
+[Wed Jun  2 12:42:02.733 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  2 21:17:11.933 2010] 0.062 sec [all/2/rel 141 (0,25)] [performance_core] terrible
+[Wed Jun  2 21:17:15.011 2010] 0.000 sec [all/2/rel 141 (75,25)] [performance_core] terrible
+[Wed Jun  2 21:37:13.323 2010] 0.755 sec [all/2/rel 185 (0,25)] [performance_core] wish
+[Wed Jun  2 21:41:21.180 2010] 0.000 sec [all/2/rel 3 (0,25)] [performance_core] toronto
+[Wed Jun  2 21:41:28.771 2010] 0.013 sec [all/2/rel 5 (0,25)] [performance_core] france
+[Wed Jun  2 21:41:33.674 2010] 0.000 sec [all/2/rel 12 (0,25)] [performance_core] germany
+[Thu Jun  3 09:58:26.479 2010] 0.069 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Thu Jun  3 09:58:27.462 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Thu Jun  3 09:58:34.390 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Thu Jun  3 13:16:02.843 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Thu Jun  3 17:34:41.560 2010] 0.037 sec [all/2/rel 45 (0,25)] [performance_core] somewhat
+[Fri Jun  4 05:24:18.903 2010] 0.110 sec [all/2/rel 0 (0,25)] [performance_core] "days of the new"
+[Fri Jun  4 16:22:10.599 2010] 0.000 sec [all/2/rel 0 (0,25)] [performance_core] cantrell
+[Fri Jun  4 16:22:17.957 2010] 0.000 sec [all/2/rel 0 (0,25)] [performance_core] cantrell
+[Sat Jun  5 04:28:02.547 2010] 0.011 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Sat Jun  5 05:00:00.502 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Mon Jun  7 07:51:41.110 2010] 0.192 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Mon Jun  7 09:09:00.909 2010] 0.000 sec [scan/2/rel 192 (25,25)] [performance_core]
+[Mon Jun  7 09:47:44.330 2010] 0.000 sec [scan/2/rel 192 (50,25)] [performance_core]
+[Mon Jun  7 10:48:17.173 2010] 0.000 sec [scan/2/rel 192 (150,25)] [performance_core]
+[Mon Jun  7 11:59:46.160 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Mon Jun  7 12:29:43.712 2010] 0.000 sec [scan/2/rel 192 (75,25)] [performance_core]
+[Mon Jun  7 13:10:31.286 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Mon Jun  7 13:11:37.583 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Mon Jun  7 13:53:13.203 2010] 0.000 sec [scan/2/rel 192 (125,25)] [performance_core]
+[Tue Jun  8 07:18:40.761 2010] 0.003 sec [all/2/rel 0 (0,25)] [performance_core] bosstones
+[Tue Jun  8 12:06:05.632 2010] 0.089 sec [scan/2/rel 192 (100,25)] [performance_core]
+[Tue Jun  8 16:37:00.846 2010] 0.061 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  9 09:59:32.622 2010] 0.124 sec [all/2/rel 3 (0,25)] [performance_core] somewhat ryanj
+[Wed Jun  9 11:37:25.558 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  9 11:37:28.516 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:39:13.586 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Wed Jun  9 11:39:19.020 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  9 11:39:21.041 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:39:50.720 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Wed Jun  9 11:39:55.453 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  9 11:39:58.371 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:43:58.670 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:44:14.947 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:45:20.111 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:45:54.781 2010] 0.000 sec [scan/2/rel 192 (0,25)] [performance_core]
+[Wed Jun  9 11:45:58.151 2010] 0.000 sec [scan/2/rel 192 (175,25)] [performance_core]
+[Wed Jun  9 11:49:00.657 2010] 0.000 sec [scan/2/ext 192 (175,25)] [performance_core]
+[Wed Jun  9 11:49:01.901 2010] 0.000 sec [scan/2/ext 192 (175,25)] [performance_core]
+[Wed Jun  9 11:50:05.666 2010] 0.253 sec [scan/2/ext 192 (150,25)] [performance_core]
+[Wed Jun  9 11:51:15.665 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 12:00:00.438 2010] 0.067 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 12:01:37.312 2010] 0.073 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 12:02:06.002 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 12:03:09.074 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 12:05:35.832 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jun  9 15:37:30.743 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] surv
+[Wed Jun  9 15:37:34.734 2010] 0.060 sec [all/2/ext 170 (0,25)] [performance_core] survivalism
+[Wed Jun  9 21:02:11.559 2010] 0.000 sec [all/2/ext 170 (0,25)] [performance_core] survivalism
+[Thu Jun 10 09:15:43.969 2010] 0.000 sec [scan/2/ext 192 (0,25)] [performance_core]
+[Thu Jun 10 09:45:36.010 2010] 0.014 sec [all/2/ext 55 (0,25)] [performance_core] performance
+[Thu Jun 10 10:03:07.126 2010] 0.000 sec [all/2/ext 55 (0,25)] [performance_core] performance
+[Thu Jun 10 11:45:30.986 2010] 0.017 sec [all/2/ext 45 (0,25)] [performance_core] somewhat
+[Thu Jun 10 11:46:15.145 2010] 0.705 sec [all/2/ext 45 (0,25)] [performance_core] somewhat damaged
+[Thu Jun 10 11:46:24.975 2010] 0.012 sec [all/2/ext 141 (0,25)] [performance_core] terrible
+[Thu Jun 10 11:46:43.018 2010] 0.000 sec [all/2/ext 1 (0,25)] [performance_core] reptilian
+[Thu Jun 10 12:04:05.012 2010] 0.000 sec [scan/2/ext 192 (100,25)] [performance_core]
+[Thu Jun 10 14:16:26.139 2010] 0.000 sec [scan/2/ext 192 (0,25)] [performance_core]
+[Thu Jun 10 16:58:39.055 2010] 0.013 sec [all/2/ext 141 (125,25)] [performance_core] terrible
+[Thu Jun 10 16:58:46.763 2010] 0.000 sec [all/2/ext 141 (25,25)] [performance_core] terrible
+[Thu Jun 10 16:58:49.724 2010] 0.000 sec [all/2/ext 141 (0,25)] [performance_core] terrible
+[Thu Jun 10 16:59:05.252 2010] 0.000 sec [scan/2/ext 192 (0,25)] [performance_core]
+[Thu Jun 10 16:59:36.668 2010] 0.000 sec [all/2/ext 2 (0,25)] [performance_core] columbiahalle
+[Thu Jun 10 17:00:21.530 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Thu Jun 10 17:00:34.409 2010] 0.000 sec [scan/2/ext 192 (0,25)] [performance_core]
+[Thu Jun 10 17:26:30.980 2010] 0.057 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jun 10 17:26:41.170 2010] 0.013 sec [all/2/ext 142 (0,25)] [performance_core] terrible
+[Thu Jun 10 17:28:48.180 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jun 10 17:29:11.574 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Thu Jun 10 17:29:21.188 2010] 0.000 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Thu Jun 10 21:33:20.289 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 02:09:50.768 2010] 0.017 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 08:30:59.016 2010] 0.932 sec [all/2/ext 0 (0,25)] [performance_core] eddie vedder
+[Fri Jun 11 08:30:59.522 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] eddie vedder
+[Fri Jun 11 08:31:05.453 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] rjd2
+[Fri Jun 11 08:31:13.406 2010] 0.017 sec [all/2/ext 0 (0,25)] [performance_core] jurassic 5
+[Fri Jun 11 12:30:30.175 2010] 0.000 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Fri Jun 11 14:03:12.912 2010] 0.025 sec [scan/2/ext 194 (50,25)] [performance_core]
+[Fri Jun 11 14:45:36.444 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 16:33:32.453 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 17:21:14.502 2010] 0.896 sec [scan/2/ext 194 (25,25)] [performance_core]
+[Fri Jun 11 18:17:17.120 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 20:02:58.395 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 11 22:45:36.547 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sat Jun 12 11:01:58.756 2010] 0.000 sec [scan/2/ext 194 (75,25)] [performance_core]
+[Sat Jun 12 11:54:31.585 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Sat Jun 12 13:44:41.095 2010] 0.000 sec [scan/2/ext 194 (125,25)] [performance_core]
+[Sun Jun 13 18:43:55.772 2010] 1.016 sec [scan/2/ext 194 (75,25)] [performance_core]
+[Sun Jun 13 19:41:34.183 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 14 12:42:51.507 2010] 0.060 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Mon Jun 14 13:12:22.129 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 14 15:18:17.323 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 15 04:45:09.237 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 15 04:45:10.160 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 15 07:33:20.160 2010] 0.053 sec [scan/2/ext 194 (50,25)] [performance_core]
+[Tue Jun 15 13:42:11.908 2010] 0.000 sec [scan/2/ext 194 (125,25)] [performance_core]
+[Tue Jun 15 14:43:59.543 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Tue Jun 15 15:33:38.650 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Wed Jun 16 15:52:58.112 2010] 0.038 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Wed Jun 16 16:34:35.271 2010] 0.000 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Wed Jun 16 16:34:41.191 2010] 0.035 sec [all/2/ext 1 (0,25)] [performance_core] aaron north
+[Thu Jun 17 04:51:34.857 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jun 17 11:07:24.819 2010] 0.000 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Fri Jun 18 10:11:19.503 2010] 0.052 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Fri Jun 18 10:59:11.088 2010] 0.000 sec [scan/2/ext 194 (100,25)] [performance_core]
+[Fri Jun 18 12:19:11.143 2010] 0.048 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Fri Jun 18 14:05:20.163 2010] 0.000 sec [scan/2/ext 194 (100,25)] [performance_core]
+[Fri Jun 18 19:17:29.160 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sat Jun 19 12:12:06.626 2010] 0.039 sec [scan/2/ext 194 (50,25)] [performance_core]
+[Sat Jun 19 13:17:23.247 2010] 0.000 sec [scan/2/ext 194 (25,25)] [performance_core]
+[Sat Jun 19 15:33:00.256 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sat Jun 19 17:25:11.403 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 20 07:52:09.027 2010] 0.017 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 21 00:08:06.388 2010] 0.065 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Mon Jun 21 00:19:31.304 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 21 00:23:06.046 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] garson
+[Mon Jun 21 00:23:12.134 2010] 0.011 sec [all/2/ext 0 (0,25)] [performance_core] mike garson
+[Mon Jun 21 00:23:18.298 2010] 0.065 sec [all/2/ext 1 (0,25)] [performance_core] 2009-09-10
+[Mon Jun 21 00:23:23.049 2010] 0.000 sec [all/2/ext 78 (0,25)] [performance_core] 2009
+[Mon Jun 21 11:13:42.120 2010] 0.009 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Mon Jun 21 12:47:40.634 2010] 0.027 sec [all/2/ext 8 (0,25)] [performance_core] banged
+[Mon Jun 21 14:50:42.990 2010] 0.000 sec [scan/2/ext 194 (100,25)] [performance_core]
+[Mon Jun 21 15:35:13.860 2010] 0.000 sec [scan/2/ext 194 (75,25)] [performance_core]
+[Mon Jun 21 16:31:02.944 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 22 06:13:22.280 2010] 0.008 sec [scan/2/ext 194 (25,25)] [performance_core]
+[Tue Jun 22 12:42:28.274 2010] 0.012 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 22 13:21:07.100 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Tue Jun 22 15:05:46.333 2010] 0.000 sec [scan/2/ext 194 (125,25)] [performance_core]
+[Tue Jun 22 18:49:35.417 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Wed Jun 23 01:11:54.608 2010] 0.050 sec [scan/2/ext 194 (125,25)] [performance_core]
+[Wed Jun 23 20:36:35.613 2010] 0.055 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Wed Jun 23 23:15:55.335 2010] 0.036 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Thu Jun 24 17:56:55.379 2010] 0.156 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 25 07:38:50.693 2010] 0.061 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 25 14:19:48.700 2010] 0.016 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 25 14:20:14.287 2010] 0.040 sec [all/2/ext 0 (0,25)] [performance_core] springsteen
+[Fri Jun 25 14:21:06.276 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] springsteen
+[Fri Jun 25 14:21:07.635 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jun 25 14:21:13.981 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 11:22:10.837 2010] 0.038 sec [all/2/ext 46 (0,25)] [performance_core] somewhat
+[Sun Jun 27 11:22:23.799 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 11:22:27.129 2010] 0.000 sec [scan/2/ext 194 (175,25)] [performance_core]
+[Sun Jun 27 11:22:32.933 2010] 0.000 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Sun Jun 27 11:59:13.587 2010] 0.095 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Jun 27 13:08:06.574 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 18:49:19.548 2010] 0.609 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 18:59:39.118 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 19:38:26.678 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sun Jun 27 22:18:13.292 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 28 11:01:07.877 2010] 0.059 sec [scan/2/ext 194 (100,25)] [performance_core]
+[Mon Jun 28 11:18:39.672 2010] 0.057 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 28 11:40:54.665 2010] 0.001 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 28 11:44:37.367 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jun 28 20:42:09.625 2010] 0.116 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Thu Jul  1 11:20:45.981 2010] 0.083 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jul  1 14:16:21.738 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jul  1 20:38:45.685 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jul  1 21:19:06.252 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jul  1 21:59:17.501 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Thu Jul  1 21:59:19.512 2010] 0.000 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Thu Jul  1 22:02:00.337 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Thu Jul  1 22:03:31.070 2010] 0.138 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Fri Jul  2 08:21:48.206 2010] 0.017 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jul  2 19:10:20.410 2010] 0.022 sec [scan/2/ext 194 (100,25)] [performance_core]
+[Fri Jul  2 21:31:54.847 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Fri Jul  2 21:53:11.559 2010] 0.059 sec [all/2/ext 14 (0,25)] [performance_core] hyperpower
+[Fri Jul  2 21:53:16.435 2010] 0.000 sec [all/2/ext 14 (0,25)] [performance_core] hyperpower!
+[Sat Jul  3 08:32:42.542 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Sat Jul  3 11:05:27.429 2010] 0.000 sec [scan/2/ext 194 (0,25)] [performance_core]
+[Mon Jul  5 11:27:51.867 2010] 0.003 sec [scan/2/ext 194 (50,25)] [performance_core]
+[Mon Jul  5 15:19:03.797 2010] 0.000 sec [scan/2/ext 194 (150,25)] [performance_core]
+[Mon Jul  5 18:13:49.417 2010] 0.033 sec [scan/2/ext 194 (25,25)] [performance_core]
+[Mon Jul  5 18:25:50.847 2010] 0.000 sec [scan/2/ext 195 (0,25)] [performance_core]
+[Mon Jul  5 18:25:55.001 2010] 0.005 sec [all/2/ext 15 (0,25)] [performance_core] hyperpower!
+[Tue Jul  6 07:34:11.519 2010] 0.003 sec [scan/2/ext 195 (0,25)] [performance_core]
+[Tue Jul  6 07:34:15.857 2010] 0.000 sec [scan/2/ext 195 (75,25)] [performance_core]
+[Tue Jul  6 07:34:17.745 2010] 0.000 sec [scan/2/ext 195 (125,25)] [performance_core]
+[Tue Jul  6 07:34:20.006 2010] 0.000 sec [scan/2/ext 195 (150,25)] [performance_core]
+[Tue Jul  6 07:35:09.321 2010] 0.015 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:37:29.771 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:41:30.881 2010] 0.073 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:44:03.212 2010] 0.196 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:46:01.924 2010] 0.153 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:48:10.991 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:50:57.286 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:51:56.435 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:55:44.045 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 07:57:37.050 2010] 0.224 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 08:01:13.578 2010] 0.069 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 08:02:29.742 2010] 0.026 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 08:04:26.804 2010] 0.085 sec [all/2/ext 21 (0,25)] [performance_core] hyperpower!
+[Tue Jul  6 08:04:50.147 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Tue Jul  6 08:04:59.639 2010] 0.000 sec [all/2/ext 21 (0,25)] [performance_core] hyperpower!
+[Tue Jul  6 08:06:17.808 2010] 0.001 sec [all/2/ext 21 (0,25)] [performance_core] hyperpower!
+[Tue Jul  6 09:43:26.220 2010] 0.000 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Tue Jul  6 10:56:58.365 2010] 0.000 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Tue Jul  6 12:05:34.073 2010] 0.000 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Tue Jul  6 16:56:30.313 2010] 0.000 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Tue Jul  6 18:23:08.134 2010] 0.008 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 18:24:18.038 2010] 0.089 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 18:26:38.604 2010] 0.026 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 18:40:24.377 2010] 0.077 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 18:41:55.720 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 18:42:10.310 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Jul  6 19:39:54.309 2010] 0.015 sec [scan/2/ext 201 (125,25)] [performance_core]
+[Wed Jul  7 02:06:08.474 2010] 0.048 sec [scan/2/ext 201 (175,25)] [performance_core]
+[Wed Jul  7 18:42:31.091 2010] 0.056 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:43:33.585 2010] 0.396 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:46:37.371 2010] 0.952 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:46:50.135 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:47:22.502 2010] 0.025 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Wed Jul  7 18:47:30.019 2010] 0.011 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Wed Jul  7 18:47:33.278 2010] 0.000 sec [scan/2/ext 201 (175,25)] [performance_core]
+[Wed Jul  7 18:47:42.661 2010] 0.000 sec [scan/2/ext 201 (150,25)] [performance_core]
+[Wed Jul  7 18:47:50.535 2010] 0.000 sec [scan/2/ext 201 (200,25)] [performance_core]
+[Wed Jul  7 18:47:52.491 2010] 0.000 sec [scan/2/ext 201 (0,25)] [performance_core]
+[Wed Jul  7 18:49:01.492 2010] 0.043 sec [scan/2/ext 206 (0,25)] [performance_core]
+[Wed Jul  7 18:49:07.256 2010] 0.000 sec [scan/2/ext 206 (150,25)] [performance_core]
+[Wed Jul  7 18:49:15.962 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Wed Jul  7 18:49:16.012 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:49:16.182 2010] 0.000 sec [scan/2/ext 205 (0,25)] [performance_core]
+[Wed Jul  7 18:49:23.176 2010] 0.000 sec [scan/2/ext 205 (150,25)] [performance_core]
+[Wed Jul  7 18:49:44.241 2010] 0.348 sec [all/2/ext 1 (0,25)] [performance_core] pukkelpop
+[Wed Jul  7 18:50:42.309 2010] 0.000 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Wed Jul  7 18:52:24.400 2010] 3.354 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Wed Jul  7 18:53:39.484 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:54:32.035 2010] 0.250 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:56:19.822 2010] 0.036 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:59:13.324 2010] 0.449 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 18:59:46.679 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:00:21.079 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:00:52.891 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:28:32.615 2010] 0.081 sec [all/2/ext 27 (0,25)] [performance_core] hyperpower!
+[Wed Jul  7 19:29:34.288 2010] 0.000 sec [scan/2/ext 207 (0,25)] [performance_core]
+[Wed Jul  7 19:29:38.840 2010] 0.002 sec [scan/2/ext 207 (150,25)] [performance_core]
+[Wed Jul  7 19:30:09.985 2010] 0.077 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:34:41.771 2010] 0.082 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:37:05.548 2010] 0.009 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:37:55.343 2010] 0.002 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:39:43.212 2010] 0.708 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:40:49.362 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:43:12.918 2010] 0.039 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:44:39.853 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:45:41.985 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:50:01.149 2010] 0.034 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:51:21.913 2010] 1.011 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:56:37.899 2010] 0.015 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 19:58:18.828 2010] 0.216 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:02:00.135 2010] 0.073 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:02:58.618 2010] 0.028 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:05:12.248 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:06:02.569 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:10:32.661 2010] 0.058 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:11:51.797 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:12:13.143 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:12:38.810 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:15:05.196 2010] 0.052 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:15:54.994 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:19:46.472 2010] 0.011 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:21:10.259 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:22:37.848 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Wed Jul  7 20:24:32.866 2010] 0.044 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul  7 20:28:14.541 2010] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Thu Jul  8 05:38:00.546 2010] 0.123 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Thu Jul  8 11:35:27.963 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul  8 14:22:37.727 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul  8 14:39:07.204 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul  8 14:55:25.276 2010] 0.000 sec [scan/2/ext 218 (75,25)] [performance_core]
+[Thu Jul  8 14:58:40.507 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul  8 16:58:54.828 2010] 0.897 sec [all/2/ext 67 (0,25)] [performance_core] heresy
+[Fri Jul  9 15:34:07.878 2010] 0.095 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Jul 11 06:52:37.181 2010] 0.073 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sun Jul 11 09:20:24.730 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] nirvana
+[Sun Jul 11 09:20:26.976 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] nirvana
+[Tue Jul 13 11:30:44.472 2010] 0.029 sec [scan/2/ext 218 (175,25)] [performance_core]
+[Tue Jul 13 18:15:02.331 2010] 0.062 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 14 15:50:28.669 2010] 0.004 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 14 20:34:35.011 2010] 0.047 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul 15 17:55:27.548 2010] 2.189 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Fri Jul 16 14:48:20.582 2010] 0.026 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 16 16:03:27.312 2010] 0.680 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 16 16:16:49.329 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 16 17:13:04.929 2010] 0.000 sec [scan/2/ext 218 (175,25)] [performance_core]
+[Wed Jul 21 20:31:47.433 2010] 0.033 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Jul 21 21:07:49.149 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 21 22:23:17.551 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] Apocalyptica
+[Wed Jul 21 22:23:26.502 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] Rammstein
+[Wed Jul 21 22:47:03.905 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 21 23:09:32.241 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 21 23:17:43.370 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 21 23:29:12.853 2010] 0.035 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Jul 22 13:19:57.216 2010] 1.066 sec [scan/2/ext 218 (100,25)] [performance_core]
+[Fri Jul 23 08:33:30.563 2010] 0.050 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 23 10:23:50.467 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 23 10:57:23.367 2010] 0.000 sec [scan/2/ext 218 (150,25)] [performance_core]
+[Fri Jul 23 11:01:36.397 2010] 0.000 sec [scan/2/ext 218 (75,25)] [performance_core]
+[Fri Jul 23 11:10:09.043 2010] 0.000 sec [scan/2/ext 218 (50,25)] [performance_core]
+[Fri Jul 23 11:40:45.152 2010] 0.000 sec [scan/2/ext 218 (25,25)] [performance_core]
+[Fri Jul 23 12:07:15.629 2010] 0.000 sec [scan/2/ext 218 (175,25)] [performance_core]
+[Fri Jul 23 19:51:30.374 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Jul 23 21:40:37.465 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 24 02:24:31.176 2010] 0.145 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sat Jul 24 03:08:49.586 2010] 0.013 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 24 10:26:22.721 2010] 0.000 sec [scan/2/ext 218 (125,25)] [performance_core]
+[Sat Jul 24 13:37:38.479 2010] 0.084 sec [all/2/ext 67 (0,25)] [performance_core] heresy
+[Sat Jul 24 19:28:51.595 2010] 0.277 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 24 21:45:17.360 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] moe
+[Sun Jul 25 05:00:40.224 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sun Jul 25 11:00:17.596 2010] 0.000 sec [scan/2/ext 218 (100,25)] [performance_core]
+[Mon Jul 26 21:39:20.085 2010] 0.074 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Mon Jul 26 22:56:00.528 2010] 0.077 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Mon Jul 26 22:58:55.657 2010] 0.045 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Mon Jul 26 23:03:14.623 2010] 0.050 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Mon Jul 26 23:03:17.873 2010] 0.000 sec [scan/2/ext 218 (200,25)] [performance_core]
+[Tue Jul 27 11:03:15.295 2010] 0.000 sec [scan/2/ext 218 (150,25)] [performance_core]
+[Tue Jul 27 11:44:09.175 2010] 0.000 sec [scan/2/ext 218 (50,25)] [performance_core]
+[Tue Jul 27 12:55:19.679 2010] 0.053 sec [scan/2/ext 218 (25,25)] [performance_core]
+[Wed Jul 28 06:39:54.500 2010] 0.120 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Jul 28 11:08:02.721 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Wed Jul 28 11:24:48.018 2010] 0.000 sec [scan/2/ext 218 (125,25)] [performance_core]
+[Wed Jul 28 17:27:49.758 2010] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Jul 28 22:59:04.260 2010] 0.031 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Jul 29 00:19:41.546 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] eddie vedder
+[Fri Jul 30 11:11:47.409 2010] 0.054 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 31 02:04:33.922 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 31 10:58:55.403 2010] 0.000 sec [scan/2/ext 218 (100,25)] [performance_core]
+[Sat Jul 31 11:00:08.314 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Jul 31 21:50:29.511 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Tue Aug  3 22:06:54.599 2010] 0.055 sec [scan/2/ext 218 (150,25)] [performance_core]
+[Wed Aug  4 11:04:53.694 2010] 0.088 sec [all/2/ext 0 (0,25)] [performance_core] sonioio
+[Wed Aug  4 11:05:10.485 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] sonoio
+[Wed Aug  4 12:38:11.882 2010] 0.015 sec [scan/2/ext 218 (50,25)] [performance_core]
+[Wed Aug  4 13:22:11.770 2010] 0.000 sec [scan/2/ext 218 (25,25)] [performance_core]
+[Wed Aug  4 14:22:08.005 2010] 0.000 sec [scan/2/ext 218 (125,25)] [performance_core]
+[Wed Aug  4 15:23:40.544 2010] 0.014 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Aug  5 07:32:47.716 2010] 0.039 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Thu Aug  5 11:37:44.891 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Fri Aug  6 11:01:49.009 2010] 0.124 sec [scan/2/ext 218 (175,25)] [performance_core]
+[Fri Aug  6 12:06:45.738 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Aug  7 04:00:04.818 2010] 0.065 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Aug  7 07:31:59.594 2010] 0.302 sec [all/2/ext 0 (0,25)] [performance_core] buckethead
+[Sat Aug  7 13:59:52.922 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Aug  7 16:29:10.551 2010] 0.000 sec [scan/2/ext 218 (75,25)] [performance_core]
+[Sat Aug  7 17:46:08.873 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sat Aug  7 18:55:52.871 2010] 0.028 sec [all/2/ext 1 (0,25)] [performance_core] auckland
+[Sun Aug  8 11:46:56.863 2010] 0.077 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sun Aug  8 14:09:26.565 2010] 0.000 sec [scan/2/ext 218 (200,25)] [performance_core]
+[Sun Aug  8 21:13:33.295 2010] 0.000 sec [scan/2/ext 218 (0,25)] [performance_core]
+[Sun Aug  8 21:14:39.609 2010] 0.037 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:15:09.527 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:16:12.945 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:26:59.337 2010] 0.073 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:28:09.727 2010] 0.001 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:31:05.136 2010] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Sun Aug  8 21:32:19.198 2010] 0.037 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Sun Aug  8 21:32:25.508 2010] 0.000 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Sun Aug  8 21:55:11.216 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug  9 04:46:08.933 2010] 0.163 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Mon Aug  9 07:15:51.853 2010] 0.027 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Mon Aug  9 17:15:06.117 2010] 0.042 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Mon Aug  9 18:32:17.103 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] cozy powell
+[Mon Aug  9 18:56:20.457 2010] 0.000 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Mon Aug  9 20:51:26.827 2010] 0.000 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Tue Aug 10 17:02:17.029 2010] 0.139 sec [all/2/ext 20 (0,25)] [performance_core] the line
+[Tue Aug 10 21:54:45.385 2010] 0.025 sec [all/2/ext 215 (0,25)] [performance_core] march
+[Wed Aug 11 12:13:00.443 2010] 0.002 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 13 11:55:39.026 2010] 0.039 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 13 12:24:40.619 2010] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sat Aug 14 03:53:23.151 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 14 14:02:15.839 2010] 0.019 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 14 14:28:53.568 2010] 0.451 sec [all/2/ext 221 (0,25)] [performance_core] nine inch nails
+[Sat Aug 14 14:29:17.278 2010] 0.000 sec [all/2/ext 221 (200,25)] [performance_core] nine inch nails
+[Sat Aug 14 14:29:22.804 2010] 0.000 sec [all/2/ext 221 (100,25)] [performance_core] nine inch nails
+[Sun Aug 15 18:00:44.139 2010] 0.191 sec [all/2/ext 3 (0,25)] [performance_core] getting smaller
+[Wed Aug 18 13:23:23.106 2010] 0.046 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 18 14:18:05.495 2010] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Aug 18 20:36:55.966 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 19 19:21:32.981 2010] 0.142 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Fri Aug 20 00:47:28.990 2010] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Fri Aug 20 01:37:28.006 2010] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Fri Aug 20 16:09:43.277 2010] 0.017 sec [all/2/ext 0 (0,25)] [performance_core] kraftwerk
+[Sat Aug 21 02:39:21.897 2010] 0.020 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 21 08:54:04.164 2010] 0.010 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sun Aug 22 05:28:11.501 2010] 0.054 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Aug 22 12:14:33.286 2010] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue Aug 24 13:28:44.004 2010] 0.159 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug 24 13:28:46.822 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 25 13:06:24.314 2010] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 26 03:35:22.413 2010] 0.032 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 27 09:25:54.716 2010] 0.052 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 28 07:06:27.884 2010] 0.011 sec [all/2/ext 0 (0,25)] [performance_core] prince
+[Sat Aug 28 10:23:40.878 2010] 0.093 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 28 15:21:42.822 2010] 0.045 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sun Aug 29 14:03:08.028 2010] 0.020 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Aug 29 15:16:17.847 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Aug 29 17:20:53.987 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug 30 03:09:18.872 2010] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  2 11:04:42.433 2010] 0.051 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Thu Sep  2 11:21:20.779 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  2 11:45:42.142 2010] 0.012 sec [all/2/ext 0 (0,25)] [performance_core] corn gangg
+[Thu Sep  2 23:37:58.913 2010] 0.016 sec [all/2/ext 0 (0,25)] [performance_core] black devil
+[Fri Sep  3 12:16:21.513 2010] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  3 12:40:50.660 2010] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Fri Sep  3 13:28:24.769 2010] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Fri Sep  3 21:23:29.205 2010] 0.018 sec [all/2/ext 0 (0,25)] [performance_core] jethro tull
+[Fri Sep  3 21:23:40.489 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] led zeppelin
+[Fri Sep  3 21:23:40.582 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] led zeppelin
+[Fri Sep  3 21:23:49.966 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] bob dylan
+[Fri Sep  3 21:23:55.338 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  3 23:06:42.027 2010] 0.029 sec [all/2/ext 0 (0,25)] [performance_core] saga
+[Fri Sep  3 23:06:57.955 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] saga
+[Fri Sep  3 23:08:00.425 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] saga
+[Fri Sep  3 23:08:06.780 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] saga
+[Sat Sep  4 08:22:25.904 2010] 1.234 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Sat Sep  4 08:22:36.592 2010] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Sat Sep  4 08:23:27.796 2010] 0.044 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Sat Sep  4 10:37:29.752 2010] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sat Sep  4 10:55:17.689 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep  5 13:51:18.949 2010] 0.092 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Mon Sep  6 17:52:13.920 2010] 0.045 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Sep  6 21:11:31.493 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Sep  7 02:50:58.217 2010] 0.014 sec [all/2/ext 0 (0,25)] [performance_core] pink floyd
+[Tue Sep  7 02:51:21.495 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] pink floyd
+[Tue Sep  7 11:30:22.218 2010] 0.025 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  9 04:54:04.830 2010] 0.218 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  9 06:24:28.126 2010] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  9 10:36:24.780 2010] 0.103 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Thu Sep  9 11:05:09.179 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 11 10:18:15.161 2010] 0.139 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Sat Sep 11 11:23:00.199 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep 12 07:56:39.032 2010] 0.051 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep 12 10:53:52.379 2010] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Oct  6 09:33:26.575 2010] 0.097 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Oct  6 17:35:14.679 2010] 0.027 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Oct  6 20:58:15.487 2010] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct  6 22:35:49.501 2010] 0.068 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct  6 22:37:05.797 2010] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Oct  6 22:38:15.236 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct  6 22:38:51.316 2010] 0.082 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Wed Oct  6 22:40:25.806 2010] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Thu Oct  7 00:21:18.779 2010] 0.051 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Thu Oct  7 05:26:43.171 2010] 0.390 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Thu Oct  7 07:21:07.195 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Oct  7 14:48:25.244 2010] 0.174 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Fri Oct  8 10:06:19.634 2010] 0.006 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct  9 14:14:11.133 2010] 0.171 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct  9 22:23:45.921 2010] 0.037 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 10 00:00:17.984 2010] 0.077 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Oct 10 00:22:24.939 2010] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sun Oct 10 01:21:44.721 2010] 0.397 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sun Oct 10 04:48:38.464 2010] 1.054 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sun Oct 10 08:33:12.086 2010] 0.059 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 10 09:14:47.121 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 10 11:04:22.120 2010] 0.022 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Mon Oct 11 02:04:37.934 2010] 0.055 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 11 04:42:09.961 2010] 0.036 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 11 05:33:29.925 2010] 0.029 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 11 18:32:06.649 2010] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct 13 12:54:10.701 2010] 0.140 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct 13 13:10:36.237 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Oct 14 04:31:29.442 2010] 0.302 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Oct 14 10:14:46.040 2010] 1.908 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Fri Oct 15 12:06:06.379 2010] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 16 05:23:37.377 2010] 0.605 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 16 18:12:54.615 2010] 0.185 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sun Oct 17 10:10:07.620 2010] 0.071 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 17 21:29:41.591 2010] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 19 05:29:15.771 2010] 0.136 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 19 05:29:15.771 2010] 0.136 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 19 05:29:21.727 2010] 0.001 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 19 05:29:33.783 2010] 0.002 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 19 19:08:52.986 2010] 0.061 sec [all/2/ext 0 (0,25)] [performance_core] ZEPPELIN
+[Tue Oct 19 19:09:06.016 2010] 0.018 sec [all/2/ext 0 (0,25)] [performance_core] led zeppelin
+[Wed Oct 20 12:31:11.175 2010] 0.072 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Oct 22 10:21:06.836 2010] 0.024 sec [all/2/ext 0 (0,25)] [performance_core] anathema
+[Fri Oct 22 10:21:20.701 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] anathema
+[Fri Oct 22 17:04:35.464 2010] 0.068 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Fri Oct 22 17:59:11.236 2010] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Fri Oct 22 20:43:03.112 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 23 10:45:41.049 2010] 0.833 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sat Oct 23 13:41:10.022 2010] 0.062 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Oct 23 21:16:04.385 2010] 0.232 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Oct 24 06:24:12.153 2010] 0.055 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 24 09:02:35.689 2010] 0.464 sec [all/2/ext 0 (0,25)] [performance_core] springsteen
+[Sun Oct 24 16:22:25.447 2010] 0.035 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 25 11:03:30.847 2010] 0.093 sec [all/2/ext 0 (0,25)] [performance_core] dissection
+[Thu Oct 28 14:46:26.904 2010] 0.079 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Fri Oct 29 20:06:13.514 2010] 0.216 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Fri Oct 29 23:21:04.046 2010] 0.014 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 31 08:28:38.729 2010] 0.027 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 31 10:39:21.106 2010] 0.032 sec [all/2/ext 0 (0,25)] [performance_core] runaways
+[Sun Oct 31 10:39:33.876 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 31 10:40:05.480 2010] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 31 10:40:17.553 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] runaways
+[Tue Nov  2 17:11:54.731 2010] 0.031 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Tue Nov  2 20:22:39.775 2010] 0.047 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov  3 06:40:33.300 2010] 0.055 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov  5 03:50:57.362 2010] 0.059 sec [all/2/ext 0 (0,25)] [performance_core] rush
+[Fri Nov  5 03:51:35.691 2010] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] rush
+[Fri Nov  5 04:17:10.940 2010] 0.019 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov  5 11:39:06.196 2010] 0.025 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 17:37:45.039 2011] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 17:37:53.820 2011] 0.032 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Tue May 17 18:55:54.329 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 20:04:42.724 2011] 0.049 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 20:05:33.135 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 21:46:05.528 2011] 0.106 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 21:47:12.665 2011] 0.047 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 22:10:08.414 2011] 0.024 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 17 22:45:53.367 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed May 18 01:55:02.136 2011] 0.030 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed May 18 01:55:48.104 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed May 18 01:56:34.329 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed May 18 01:57:20.414 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed May 18 01:58:06.649 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed May 18 01:58:52.859 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed May 18 01:59:39.096 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed May 18 02:00:25.446 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed May 18 04:47:06.629 2011] 0.121 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Wed May 18 04:51:06.436 2011] 0.029 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Wed May 18 07:24:25.793 2011] 0.083 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed May 18 07:26:22.265 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed May 18 17:24:10.033 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu May 19 07:48:57.883 2011] 0.033 sec [all/2/ext 0 (0,25)] [performance_core] supertramp
+[Thu May 19 09:36:16.948 2011] 0.079 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu May 19 19:29:49.728 2011] 0.026 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 01:08:06.489 2011] 0.035 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 09:56:45.782 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 09:56:57.548 2011] 0.027 sec [all/2/ext 215 (0,25)] [performance_core] March
+[Fri May 20 12:36:59.842 2011] 0.146 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 12:53:58.844 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 20:38:50.012 2011] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri May 20 21:57:55.891 2011] 0.017 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sat May 21 16:01:24.564 2011] 0.065 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat May 21 19:00:40.133 2011] 0.139 sec [all/2/ext 0 (0,25)] [performance_core] Steve, Bob and Rich
+[Sun May 22 07:41:10.393 2011] 0.079 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun May 22 11:13:48.603 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 22 13:50:46.895 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 22 21:49:58.855 2011] 0.091 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 22 23:07:32.619 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 05:46:50.239 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 15:28:34.760 2011] 0.078 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 15:28:36.889 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 17:04:30.083 2011] 0.013 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 20:34:19.964 2011] 0.037 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 23 21:47:35.745 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 07:05:12.845 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 13:30:15.808 2011] 0.045 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 20:27:31.751 2011] 0.086 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Tue May 24 20:52:02.344 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 23:25:01.448 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 23:25:16.685 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 24 23:29:01.344 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed May 25 07:38:22.114 2011] 0.046 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed May 25 11:13:16.472 2011] 0.101 sec [all/2/ext 0 (0,25)] [performance_core] rolling stones with the band
+[Wed May 25 11:13:20.152 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] rolling stones
+[Wed May 25 18:46:10.093 2011] 0.071 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu May 26 15:12:48.938 2011] 0.040 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu May 26 16:37:43.677 2011] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu May 26 17:32:36.667 2011] 0.025 sec [scan/2/rel 1 (0,20)] [performance_core]
+[Fri May 27 12:56:26.172 2011] 0.046 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Fri May 27 22:42:17.968 2011] 0.079 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Sat May 28 09:05:12.994 2011] 0.030 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sat May 28 09:46:03.009 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat May 28 22:20:12.730 2011] 0.054 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sat May 28 23:39:25.206 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 29 10:36:09.323 2011] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 29 10:36:41.168 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 29 22:22:53.162 2011] 0.027 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun May 29 22:30:00.625 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sun May 29 23:14:36.069 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] genesis
+[Mon May 30 06:20:54.902 2011] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 30 09:56:35.425 2011] 0.126 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 30 10:15:15.340 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 30 11:56:57.412 2011] 0.033 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Mon May 30 12:16:34.596 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon May 30 20:33:43.406 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 31 00:01:25.843 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue May 31 07:31:17.694 2011] 0.017 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 31 12:56:41.258 2011] 0.011 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 31 13:08:07.025 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue May 31 18:06:02.344 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue May 31 20:51:01.762 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun  1 10:07:46.044 2011] 0.050 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed Jun  1 20:48:35.956 2011] 0.049 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun  1 20:48:46.659 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  2 12:34:05.634 2011] 0.020 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Fri Jun  3 11:55:23.890 2011] 0.059 sec [all/2/ext 0 (0,25)] [performance_core] one sweet world dave matthews
+[Fri Jun  3 11:55:30.645 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] one sweet world
+[Fri Jun  3 11:55:46.690 2011] 0.018 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun  5 17:24:26.175 2011] 0.065 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun  5 21:38:22.463 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun  5 22:02:41.339 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun  6 01:53:38.097 2011] 1.202 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun  6 07:20:15.195 2011] 0.035 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun  6 17:18:35.504 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun  7 07:11:54.517 2011] 0.844 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun  7 11:47:01.299 2011] 0.028 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Jun  7 16:48:25.895 2011] 0.107 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Tue Jun  7 17:52:50.801 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun  7 18:07:04.510 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun  7 21:30:13.345 2011] 0.185 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun  7 21:46:30.917 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun  8 17:09:25.249 2011] 0.032 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 06:08:12.734 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 09:55:13.064 2011] 0.038 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 10:27:14.352 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 11:30:44.575 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 12:07:03.979 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 12:08:35.241 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 17:02:45.308 2011] 0.068 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun  9 17:03:55.609 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jun 10 08:15:34.972 2011] 0.049 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jun 11 10:00:29.856 2011] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun 12 10:45:34.778 2011] 0.042 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun 12 10:45:45.080 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jun 12 21:26:38.988 2011] 0.136 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Mon Jun 13 15:50:47.659 2011] 0.042 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun 13 19:17:29.964 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 15 12:17:46.953 2011] 0.109 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Wed Jun 15 17:32:25.457 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun 16 16:43:23.721 2011] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jun 17 02:28:41.060 2011] 4.680 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Fri Jun 17 07:21:35.447 2011] 0.020 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jun 17 11:08:58.852 2011] 0.113 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sat Jun 18 11:25:04.017 2011] 0.103 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Jun 19 04:41:48.547 2011] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun 20 22:38:28.054 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun 21 00:28:45.091 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun 21 12:46:44.482 2011] 0.024 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun 21 13:12:21.862 2011] 0.001 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Jun 22 00:31:14.618 2011] 0.020 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed Jun 22 03:03:50.661 2011] 0.063 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 22 03:03:51.768 2011] 0.078 sec [all/2/ext 0 (0,25)] [performance_core] beach boys
+[Wed Jun 22 03:22:46.790 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 22 03:23:09.383 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 22 05:17:04.316 2011] 0.660 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 22 15:16:43.504 2011] 0.086 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jun 22 21:53:59.867 2011] 0.069 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jun 24 04:54:36.344 2011] 0.040 sec [all/2/ext 0 (0,25)] [performance_core] rainbow
+[Sat Jun 25 03:02:25.539 2011] 0.029 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jun 25 03:29:15.950 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jun 25 11:18:15.081 2011] 0.038 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sat Jun 25 21:21:46.771 2011] 0.076 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jun 25 23:47:36.019 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jun 25 23:56:35.944 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun 27 06:44:19.571 2011] 0.050 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun 27 09:04:15.193 2011] 0.014 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Mon Jun 27 19:00:28.264 2011] 0.036 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jun 27 23:42:42.035 2011] 0.053 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun 28 00:14:36.522 2011] 0.013 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue Jun 28 12:23:50.209 2011] 0.026 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jun 28 17:17:14.383 2011] 0.032 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Tue Jun 28 19:30:04.747 2011] 0.023 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Tue Jun 28 19:56:05.284 2011] 0.030 sec [all/2/ext 0 (0,25)] [performance_core] u2
+[Wed Jun 29 19:25:10.112 2011] 0.020 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Jun 29 20:51:42.568 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jun 30 19:25:43.887 2011] 0.060 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Fri Jul  1 02:35:24.108 2011] 0.138 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jul  2 05:57:25.179 2011] 0.011 sec [all/2/ext 0 (0,25)] [performance_core] kreator
+[Sat Jul  2 15:43:56.750 2011] 0.032 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sat Jul  2 17:49:17.298 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul  3 05:57:42.410 2011] 0.033 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul  3 14:03:34.033 2011] 0.022 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sun Jul  3 19:30:57.631 2011] 0.070 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Mon Jul  4 04:15:07.506 2011] 0.015 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jul  5 20:45:08.225 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul  6 00:09:20.703 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul  6 04:39:34.760 2011] 0.021 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Jul  6 07:49:09.189 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul  6 07:49:15.030 2011] 0.038 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Jul  6 10:34:26.939 2011] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul  6 10:37:06.059 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul  8 07:32:23.151 2011] 0.052 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul  8 07:32:54.126 2011] 0.024 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul  8 12:47:38.749 2011] 0.019 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 10 07:29:40.433 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 10 11:20:44.117 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 10 21:46:11.208 2011] 0.055 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jul 11 01:07:47.267 2011] 0.058 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Mon Jul 11 22:28:57.602 2011] 0.027 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Jul 12 03:20:17.402 2011] 0.067 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jul 12 08:15:05.711 2011] 0.022 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jul 12 09:24:21.196 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Jul 12 14:06:51.500 2011] 0.062 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul 13 20:21:41.952 2011] 0.072 sec [all/2/ext 0 (0,25)] [performance_core] Amos lee
+[Wed Jul 13 22:02:35.878 2011] 0.019 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Thu Jul 14 03:39:10.974 2011] 0.063 sec [all/2/ext 0 (0,25)] [performance_core] Amos lee
+[Thu Jul 14 03:42:58.609 2011] 0.102 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Jul 14 07:39:03.909 2011] 0.057 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Thu Jul 14 13:28:37.109 2011] 0.116 sec [all/2/ext 0 (0,25)] [performance_core] john martyn
+[Thu Jul 14 13:29:08.335 2011] 0.025 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jul 14 20:13:52.053 2011] 0.045 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul 15 00:04:24.024 2011] 0.089 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Fri Jul 15 11:53:24.567 2011] 0.046 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Fri Jul 15 12:45:39.316 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Fri Jul 15 13:21:18.158 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Fri Jul 15 20:52:13.865 2011] 0.063 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 17 12:45:37.817 2011] 0.151 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sun Jul 17 14:09:22.296 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 17 14:09:34.236 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] broadway
+[Sun Jul 17 22:41:37.862 2011] 0.100 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jul 18 07:34:55.380 2011] 0.080 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jul 18 08:27:49.217 2011] 0.072 sec [all/2/ext 0 (0,25)] [performance_core] led zeppelin
+[Tue Jul 19 13:43:11.281 2011] 0.155 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Wed Jul 20 00:18:00.892 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul 20 00:19:35.016 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul 20 21:05:29.666 2011] 0.057 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul 22 02:54:55.450 2011] 0.037 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul 22 19:54:26.736 2011] 0.055 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jul 22 21:24:55.503 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jul 23 10:56:53.231 2011] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jul 24 14:55:23.506 2011] 0.998 sec [all/2/ext 0 (0,25)] [performance_core] joni mitchell
+[Mon Jul 25 19:00:22.762 2011] 0.044 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jul 25 20:21:25.960 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jul 27 22:38:02.379 2011] 0.098 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jul 28 16:04:24.742 2011] 0.220 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Thu Jul 28 19:21:14.162 2011] 0.059 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Aug  1 18:02:06.639 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  2 05:18:00.525 2011] 1.648 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Aug  2 05:51:56.029 2011] 0.468 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Tue Aug  2 07:05:30.509 2011] 0.050 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Tue Aug  2 12:41:15.433 2011] 0.049 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  2 12:41:31.402 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Tue Aug  2 12:41:32.837 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Tue Aug  2 12:41:33.870 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue Aug  2 12:41:34.934 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Tue Aug  2 12:41:36.752 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Tue Aug  2 12:41:37.988 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Aug  2 12:41:39.203 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Tue Aug  2 12:41:40.765 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Aug  2 13:46:53.295 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  2 13:47:08.713 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Tue Aug  2 13:47:09.953 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Tue Aug  2 13:47:11.058 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue Aug  2 13:47:12.222 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Tue Aug  2 13:47:13.265 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Tue Aug  2 13:47:14.332 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Aug  2 13:47:15.426 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Tue Aug  2 13:47:16.467 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Aug  2 16:41:47.155 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug  8 21:03:49.807 2011] 0.074 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Tue Aug  9 18:15:23.950 2011] 0.033 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  9 18:16:09.254 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  9 18:22:04.014 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  9 18:22:22.681 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  9 18:24:39.813 2011] 0.111 sec [all/2/ext 215 (0,25)] [performance_core] March
+[Tue Aug  9 18:42:53.440 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Aug  9 19:00:57.565 2011] 0.000 sec [all/2/ext 215 (0,25)] [performance_core] March
+[Tue Aug  9 23:22:32.229 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 10 08:33:22.880 2011] 0.041 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Aug 10 13:44:04.526 2011] 0.011 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 10 22:00:23.502 2011] 0.028 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Aug 10 22:00:48.199 2011] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Aug 10 22:13:54.202 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 11 07:20:27.748 2011] 0.030 sec [all/2/ext 0 (0,25)] [performance_core] john mellencamp
+[Thu Aug 11 07:20:31.176 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] john mellencamp
+[Thu Aug 11 15:46:02.486 2011] 0.151 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 11 16:35:59.612 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 11 18:19:15.726 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 13 19:26:54.881 2011] 0.003 sec [all/2/ext 0 (0,25)] [performance_core] ozzy
+[Sat Aug 13 20:47:57.990 2011] 0.027 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sun Aug 14 10:44:11.670 2011] 0.038 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Mon Aug 15 11:36:37.700 2011] 0.057 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug 15 13:48:20.784 2011] 0.005 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug 15 15:27:12.022 2011] 0.114 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Mon Aug 15 17:29:30.208 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] fox
+[Mon Aug 15 17:29:42.830 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] paladium
+[Mon Aug 15 17:29:47.872 2011] 0.062 sec [all/2/ext 5 (0,25)] [performance_core] los angeles
+[Tue Aug 16 01:15:55.093 2011] 0.014 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Tue Aug 16 01:16:06.678 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Tue Aug 16 02:13:47.050 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Tue Aug 16 06:03:53.144 2011] 0.026 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Tue Aug 16 12:37:31.015 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 17 05:09:03.568 2011] 0.049 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed Aug 17 05:38:49.408 2011] 0.024 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Aug 17 14:05:18.196 2011] 0.118 sec [all/2/ext 197 (0,25)] [performance_core] hurt
+[Wed Aug 17 14:05:26.225 2011] 0.000 sec [all/2/ext 197 (150,25)] [performance_core] hurt
+[Wed Aug 17 14:05:53.549 2011] 0.000 sec [all/2/ext 197 (125,25)] [performance_core] hurt
+[Wed Aug 17 15:51:42.922 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] coldplay
+[Thu Aug 18 03:44:06.436 2011] 0.024 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 18 19:34:49.897 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 19 00:46:27.410 2011] 0.033 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 19 04:48:24.636 2011] 0.081 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sat Aug 20 01:45:34.734 2011] 0.076 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sat Aug 20 09:09:04.628 2011] 0.041 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Aug 20 09:09:33.618 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Aug 20 09:09:35.130 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sat Aug 20 09:09:36.554 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Sat Aug 20 09:09:37.753 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sat Aug 20 09:09:39.383 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Aug 21 11:11:53.924 2011] 0.035 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Aug 21 11:50:43.188 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sun Aug 21 17:01:59.337 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Aug 21 17:50:39.114 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sun Aug 21 18:34:16.452 2011] 0.329 sec [all/2/ext 9 (0,25)] [performance_core] nin
+[Sun Aug 21 20:33:00.972 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Aug 22 08:38:04.502 2011] 0.045 sec [all/2/ext 0 (0,25)] [performance_core] tv on the radio
+[Mon Aug 22 09:17:26.278 2011] 0.019 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Aug 22 16:08:57.801 2011] 1.798 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Tue Aug 23 05:52:28.114 2011] 0.017 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Aug 24 02:15:10.614 2011] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 10:42:39.135 2011] 0.064 sec [all/2/ext 0 (0,25)] [performance_core] sweetthing
+[Wed Aug 24 10:43:01.208 2011] 0.018 sec [all/2/ext 0 (0,25)] [performance_core] sweet thing
+[Wed Aug 24 10:46:33.095 2011] 0.022 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 10:46:44.587 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 10:47:19.178 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Aug 24 10:47:38.191 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed Aug 24 10:47:52.444 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Aug 24 10:48:01.159 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed Aug 24 10:53:04.171 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 15:59:49.759 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 16:59:54.275 2011] 0.878 sec [all/2/ext 0 (0,25)] [performance_core] skrillex ottawa
+[Wed Aug 24 17:00:00.390 2011] 0.008 sec [all/2/ext 0 (0,25)] [performance_core] skrillex
+[Wed Aug 24 17:00:08.252 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 17:00:19.001 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Aug 24 17:00:30.398 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 17:00:36.644 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed Aug 24 17:01:08.284 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed Aug 24 17:01:19.004 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Aug 24 17:01:37.784 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Aug 24 17:02:41.599 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Aug 24 17:02:58.844 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Aug 24 19:03:39.989 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Aug 24 19:03:46.955 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] tool
+[Thu Aug 25 03:31:44.361 2011] 0.027 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 25 06:01:25.824 2011] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Aug 25 12:04:33.588 2011] 0.066 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Aug 26 00:01:49.966 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  8 09:10:27.713 2011] 0.039 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  8 09:18:59.153 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep  8 21:28:10.366 2011] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  9 05:25:15.041 2011] 0.021 sec [all/2/ext 0 (0,25)] [performance_core] stone roses
+[Fri Sep  9 11:30:26.402 2011] 0.050 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  9 14:20:20.694 2011] 0.017 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  9 22:06:41.044 2011] 0.058 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  9 22:46:09.883 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Sep  9 22:50:14.644 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Fri Sep  9 22:58:28.679 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Fri Sep  9 23:05:46.235 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Fri Sep  9 23:14:09.166 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Sep 10 08:26:44.382 2011] 0.042 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Sat Sep 10 08:51:08.213 2011] 0.020 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 10 08:51:23.257 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Sep 10 08:51:37.993 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sat Sep 10 08:52:01.419 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sat Sep 10 08:52:13.594 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 10 08:52:54.849 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Sep 10 08:53:08.319 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sun Sep 11 00:13:28.221 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep 11 04:53:28.454 2011] 0.048 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep 11 11:17:28.977 2011] 0.616 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Mon Sep 12 19:22:51.511 2011] 0.080 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Sep 12 22:55:19.430 2011] 0.076 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Sep 13 00:38:41.362 2011] 0.011 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Tue Sep 13 08:58:05.641 2011] 0.114 sec [all/2/ext 0 (0,25)] [performance_core] shania twain
+[Tue Sep 13 08:58:14.306 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] beatles
+[Tue Sep 13 09:41:20.110 2011] 0.015 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Sep 13 09:41:22.011 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Sep 13 09:41:32.924 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Sep 13 09:41:33.792 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Sep 13 09:41:34.633 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Sep 13 22:40:18.450 2011] 0.026 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Sep 13 23:02:03.172 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed Sep 14 07:57:47.733 2011] 0.144 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Sep 14 12:15:49.936 2011] 0.037 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Sep 14 15:29:37.342 2011] 0.001 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Sep 14 19:06:00.324 2011] 0.008 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Thu Sep 15 08:18:02.080 2011] 0.072 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Sep 15 18:34:28.522 2011] 0.041 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sat Sep 17 09:23:23.211 2011] 0.032 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 17 10:09:32.719 2011] 0.026 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 17 10:09:42.729 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Sep 17 10:09:43.326 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Sep 17 10:09:43.967 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Sat Sep 17 10:09:44.875 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sat Sep 17 10:09:45.642 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sat Sep 17 10:09:46.416 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sat Sep 17 10:10:33.728 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Sat Sep 17 21:20:36.022 2011] 0.056 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Sep 18 10:18:22.380 2011] 0.024 sec [all/2/ext 0 (0,25)] [performance_core] ozzy
+[Mon Sep 19 00:51:19.959 2011] 0.007 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Sep 19 03:26:25.369 2011] 0.013 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep 22 04:09:05.767 2011] 0.032 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep 22 05:31:37.401 2011] 0.033 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Sep 22 12:41:45.628 2011] 0.060 sec [all/2/ext 0 (0,25)] [performance_core] duran montreal march 1984
+[Thu Sep 22 12:41:57.335 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] montreal march 1984
+[Thu Sep 22 12:42:02.743 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] march 1984
+[Thu Sep 22 12:42:07.434 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] 1984
+[Fri Sep 23 01:40:19.928 2011] 0.040 sec [all/2/ext 0 (0,25)] [performance_core] kravitz
+[Fri Sep 23 01:40:36.520 2011] 0.339 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct 12 14:13:47.919 2011] 0.076 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Oct 12 14:13:51.152 2011] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Oct 12 16:09:54.575 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Oct 12 16:42:46.603 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Oct 12 18:03:22.292 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed Oct 12 18:13:23.913 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Oct 12 18:23:25.056 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed Oct 12 22:19:46.625 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Oct 13 14:24:16.872 2011] 0.021 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Fri Oct 14 15:56:11.561 2011] 0.043 sec [all/2/ext 0 (0,25)] [performance_core] city and colour
+[Fri Oct 14 15:56:42.968 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 15 19:15:01.467 2011] 0.024 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 16 06:45:46.362 2011] 0.056 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Oct 16 06:54:17.374 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 16 07:48:10.953 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Mon Oct 17 07:27:21.964 2011] 0.041 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 17 08:36:03.773 2011] 0.852 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 17 13:29:55.914 2011] 0.043 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed Oct 19 00:52:39.657 2011] 0.080 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct 19 03:07:44.236 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Oct 20 15:17:49.032 2011] 0.057 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Thu Oct 20 18:59:19.836 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 22 00:19:36.932 2011] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Oct 22 23:28:39.825 2011] 0.029 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 23 14:53:24.858 2011] 0.014 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 24 12:06:32.400 2011] 0.062 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 24 21:55:22.851 2011] 0.036 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Oct 25 14:58:27.214 2011] 0.031 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Oct 26 03:08:25.986 2011] 0.056 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Oct 26 18:19:30.504 2011] 0.044 sec [all/2/ext 0 (0,25)] [performance_core] barn owl
+[Fri Oct 28 08:26:25.373 2011] 0.033 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Oct 28 14:13:16.830 2011] 0.008 sec [all/2/ext 0 (0,25)] [performance_core] judas priest
+[Fri Oct 28 14:13:32.034 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] iron maiden
+[Sun Oct 30 05:59:07.323 2011] 0.021 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Oct 30 10:37:05.351 2011] 0.010 sec [all/2/ext 0 (0,25)] [performance_core] jethro tull
+[Sun Oct 30 10:37:09.410 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] jethro tull
+[Sun Oct 30 17:14:42.554 2011] 0.056 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Oct 31 07:42:50.525 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 31 14:29:08.636 2011] 0.067 sec [all/2/ext 0 (0,25)] [performance_core] coldplay
+[Mon Oct 31 22:23:00.025 2011] 0.004 sec [all/2/ext 0 (0,25)] [performance_core] WARREN ZEVON
+[Mon Oct 31 23:19:56.506 2011] 0.014 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Oct 31 23:20:12.085 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Mon Oct 31 23:20:20.990 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Nov  1 17:05:54.570 2011] 0.077 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Nov  2 04:30:35.801 2011] 0.028 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Nov  2 05:02:03.593 2011] 0.018 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov  2 05:02:43.002 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Nov  2 05:02:45.144 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed Nov  2 05:02:46.756 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Nov  2 05:02:48.962 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Nov  2 05:02:50.811 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Nov  2 05:05:20.062 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Wed Nov  2 05:06:58.190 2011] 0.061 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Wed Nov  2 05:08:39.215 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Thu Nov  3 05:58:36.963 2011] 0.017 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov  4 02:32:40.457 2011] 0.020 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sat Nov  5 04:29:30.042 2011] 0.088 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sat Nov  5 04:29:31.625 2011] 0.023 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sun Nov  6 07:28:18.531 2011] 0.007 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Nov  6 21:13:01.785 2011] 0.014 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov  7 23:32:07.870 2011] 0.022 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Nov  8 16:04:42.385 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Nov  8 16:04:56.730 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Nov  8 16:05:08.258 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov  9 13:22:14.035 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 10 17:22:04.116 2011] 0.027 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 11 05:43:18.583 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Nov 13 16:23:53.683 2011] 0.032 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Tue Nov 15 09:39:28.254 2011] 0.005 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov 16 03:07:20.190 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov 16 04:55:03.727 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov 16 22:06:19.238 2011] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 17 10:32:59.152 2011] 0.041 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 17 10:33:01.013 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 17 19:27:54.505 2011] 0.043 sec [all/2/ext 0 (0,25)] [performance_core] ozzy osbourne
+[Thu Nov 17 19:30:00.372 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 17 19:30:02.853 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Nov 17 21:40:28.911 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 18 01:38:42.958 2011] 0.124 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Fri Nov 18 01:48:44.483 2011] 0.050 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Fri Nov 18 10:31:09.732 2011] 0.050 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Nov 19 02:56:40.442 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Nov 19 13:32:54.849 2011] 0.045 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sat Nov 19 18:51:54.521 2011] 0.016 sec [all/2/ext 1 (0,25)] [performance_core] josh
+[Sat Nov 19 18:52:25.898 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Nov 20 08:51:18.649 2011] 0.096 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 21 02:47:45.919 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 21 09:44:51.960 2011] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 21 21:32:47.069 2011] 0.014 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Nov 22 12:33:42.947 2011] 0.038 sec [all/2/ext 0 (0,25)] [performance_core] champaign
+[Tue Nov 22 12:33:46.423 2011] 0.035 sec [all/2/ext 4 (0,25)] [performance_core] IL
+[Tue Nov 22 12:33:53.825 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] 2006
+[Tue Nov 22 12:34:00.757 2011] 0.031 sec [all/2/ext 0 (0,25)] [performance_core] assembly hall
+[Wed Nov 23 07:45:54.138 2011] 0.017 sec [all/2/ext 0 (0,25)] [performance_core] The Darkness
+[Wed Nov 23 07:46:02.236 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] Queen
+[Wed Nov 23 07:46:39.521 2011] 0.020 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 25 04:37:07.271 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 25 11:13:57.481 2011] 0.038 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 25 11:39:42.365 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Nov 25 13:25:47.532 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Nov 26 02:17:22.742 2011] 0.050 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 28 01:53:07.622 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 28 02:05:38.807 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 28 03:31:14.981 2011] 0.287 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 28 19:34:47.336 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Nov 28 19:36:11.674 2011] 0.085 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Mon Nov 28 19:37:25.446 2011] 0.036 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Tue Nov 29 10:39:54.199 2011] 0.017 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Nov 29 10:41:38.376 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Nov 30 09:01:41.441 2011] 0.008 sec [all/2/ext 0 (0,25)] [performance_core] pink floyd
+[Thu Dec  1 04:44:33.228 2011] 0.084 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Dec  2 15:08:18.624 2011] 0.038 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Dec  4 10:49:17.114 2011] 0.018 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec  5 03:06:49.327 2011] 0.018 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec  5 06:57:03.265 2011] 0.027 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec  5 18:18:55.768 2011] 0.051 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec  5 23:57:19.365 2011] 0.034 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Tue Dec  6 00:15:45.069 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec  7 16:48:34.993 2011] 0.014 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Wed Dec  7 16:48:36.914 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Wed Dec  7 16:48:40.389 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Wed Dec  7 16:48:42.581 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Dec  7 16:48:44.425 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Wed Dec  7 16:48:47.633 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Wed Dec  7 16:48:50.177 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Wed Dec  7 16:48:52.064 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Fri Dec  9 00:39:25.979 2011] 0.043 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Dec  9 04:32:26.755 2011] 0.103 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Fri Dec  9 11:53:22.882 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Dec  9 17:45:33.145 2011] 0.007 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Dec 11 03:07:44.510 2011] 0.019 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Dec 11 17:21:19.415 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec 12 04:07:51.358 2011] 0.017 sec [all/2/ext 0 (0,25)] [performance_core] motley crue
+[Mon Dec 12 04:55:47.579 2011] 0.049 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec 12 16:22:52.985 2011] 0.057 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Dec 12 21:42:46.973 2011] 0.004 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Mon Dec 12 22:12:48.178 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Mon Dec 12 23:11:01.954 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Mon Dec 12 23:42:10.454 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Tue Dec 13 01:45:00.352 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 13 01:45:38.586 2011] 0.064 sec [all/2/ext 0 (0,25)] [performance_core] sarah mcleod
+[Tue Dec 13 01:46:40.016 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 13 01:47:17.816 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] sarah mcleod
+[Tue Dec 13 01:49:59.038 2011] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Dec 13 01:51:25.225 2011] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Dec 13 01:51:41.303 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] Whitesnake
+[Tue Dec 13 01:53:42.734 2011] 0.000 sec [scan/2/rel 0 (0,20)] [performance_core]
+[Tue Dec 13 01:54:35.602 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] sarah mcleod
+[Tue Dec 13 02:05:46.041 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 13 02:06:20.273 2011] 0.018 sec [all/2/ext 0 (0,25)] [performance_core] The Annandale Hotel
+[Tue Dec 13 02:11:00.226 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 13 02:23:07.408 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Tue Dec 13 05:36:04.459 2011] 0.029 sec [all/2/ext 0 (0,25)] [performance_core] honeymoon suite
+[Tue Dec 13 05:36:13.202 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] kiss
+[Tue Dec 13 08:54:29.553 2011] 0.062 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec 14 00:41:05.206 2011] 0.054 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Thu Dec 15 12:02:12.198 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Dec 15 23:25:55.137 2011] 0.021 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Dec 15 23:26:26.321 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Thu Dec 15 23:26:29.071 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Thu Dec 15 23:26:32.048 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Thu Dec 15 23:26:35.401 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Thu Dec 15 23:26:38.962 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Thu Dec 15 23:26:42.464 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Thu Dec 15 23:26:46.793 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Thu Dec 15 23:26:48.687 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Thu Dec 15 23:30:52.863 2011] 0.069 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Thu Dec 15 23:30:55.800 2011] 0.027 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Dec 15 23:46:32.272 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Fri Dec 16 08:30:42.449 2011] 0.010 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Fri Dec 16 09:27:36.781 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Fri Dec 16 10:31:14.787 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Fri Dec 16 12:05:02.606 2011] 0.029 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 17 11:46:57.711 2011] 0.012 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 17 12:08:58.431 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Dec 18 00:50:12.591 2011] 0.021 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sun Dec 18 01:39:44.323 2011] 0.066 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sun Dec 18 02:13:10.706 2011] 0.020 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Sun Dec 18 02:29:42.743 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Dec 18 06:36:20.021 2011] 0.011 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Dec 18 16:53:07.008 2011] 0.028 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Dec 18 21:11:38.825 2011] 0.134 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Sun Dec 18 21:22:53.380 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sun Dec 18 21:27:54.879 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] information society
+[Sun Dec 18 21:28:03.681 2011] 0.016 sec [all/2/ext 0 (0,25)] [performance_core] the cure
+[Sun Dec 18 21:28:24.824 2011] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] the cure
+[Mon Dec 19 02:45:35.001 2011] 0.038 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Dec 19 10:55:35.794 2011] 0.034 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Dec 19 11:05:27.256 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Mon Dec 19 21:05:44.491 2011] 0.057 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Tue Dec 20 12:11:41.190 2011] 0.044 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Wed Dec 21 02:21:41.730 2011] 0.039 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec 21 07:41:20.431 2011] 0.011 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec 21 09:29:49.774 2011] 0.035 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Wed Dec 21 09:29:52.562 2011] 0.000 sec [all/2/ext 49 (0,25)] [performance_core] somewhat
+[Thu Dec 22 09:38:14.641 2011] 0.018 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Fri Dec 23 07:53:46.121 2011] 0.007 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Dec 23 13:01:06.353 2011] 0.012 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 24 10:15:00.140 2011] 0.033 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Sat Dec 24 18:59:15.376 2011] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 24 18:59:45.819 2011] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sat Dec 24 18:59:46.315 2011] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sat Dec 24 18:59:46.507 2011] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Sat Dec 24 18:59:46.832 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sat Dec 24 18:59:47.878 2011] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sat Dec 24 18:59:48.481 2011] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Sat Dec 24 18:59:48.771 2011] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sat Dec 24 18:59:49.346 2011] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Sun Dec 25 18:48:18.951 2011] 0.094 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Mon Dec 26 19:45:12.469 2011] 0.023 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 27 04:58:44.985 2011] 0.030 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 27 04:59:06.053 2011] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Tue Dec 27 17:41:24.688 2011] 0.058 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Dec 27 17:41:53.102 2011] 0.025 sec [all/2/ext 0 (0,25)] [performance_core] Springsteen
+[Wed Dec 28 08:31:38.391 2011] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec 28 21:26:03.377 2011] 0.010 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Dec 28 23:32:01.558 2011] 0.013 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Dec 29 09:07:07.947 2011] 0.036 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Dec 29 19:28:27.841 2011] 0.097 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Dec 29 22:15:18.637 2011] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Dec 30 01:56:11.410 2011] 0.008 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 31 01:57:58.913 2011] 0.047 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Dec 31 17:15:53.019 2011] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jan  2 02:57:26.855 2012] 0.021 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jan  2 02:57:59.028 2012] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Mon Jan  2 02:58:03.386 2012] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Mon Jan  2 02:58:05.254 2012] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Mon Jan  2 02:58:06.718 2012] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Mon Jan  2 02:58:08.078 2012] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Mon Jan  2 02:58:09.758 2012] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Mon Jan  2 02:58:11.453 2012] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Mon Jan  2 02:58:13.069 2012] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Mon Jan  2 03:02:08.486 2012] 0.095 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Mon Jan  2 03:02:10.713 2012] 0.023 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Mon Jan  2 04:15:38.984 2012] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jan  3 17:46:36.620 2012] 0.034 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Wed Jan  4 23:01:45.667 2012] 0.011 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jan  5 09:06:00.653 2012] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jan  5 09:06:05.816 2012] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] filter
+[Thu Jan  5 09:06:17.347 2012] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jan  5 10:41:12.265 2012] 0.012 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Fri Jan  6 15:19:15.098 2012] 0.058 sec [all/2/ext 0 (0,25)] [performance_core] bryan adams
+[Fri Jan  6 17:24:00.742 2012] 0.015 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jan  7 13:01:39.255 2012] 0.093 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jan  8 04:03:19.947 2012] 0.030 sec [all/2/ext 0 (0,25)] [performance_core] neil young
+[Sun Jan  8 16:08:25.172 2012] 0.013 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jan  8 16:48:11.724 2012] 0.012 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jan  8 22:55:17.989 2012] 0.009 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Mon Jan  9 00:53:51.302 2012] 0.042 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Mon Jan  9 01:19:25.633 2012] 0.040 sec [all/2/ext 0 (0,25)] [performance_core] metallica
+[Mon Jan  9 08:21:28.909 2012] 0.039 sec [all/2/ext 1 (0,25)] [performance_core] nashville
+[Mon Jan  9 08:21:42.633 2012] 0.029 sec [all/2/ext 1 (0,25)] [performance_core] charlotte
+[Tue Jan 10 02:53:31.023 2012] 0.220 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Tue Jan 10 06:11:07.363 2012] 0.016 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jan 10 10:22:30.933 2012] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jan 10 16:52:45.319 2012] 0.004 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Tue Jan 10 20:15:09.447 2012] 0.013 sec [all/2/ext 0 (0,25)] [performance_core] mars volta
+[Thu Jan 12 12:42:40.204 2012] 0.059 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Thu Jan 12 12:44:42.304 2012] 0.102 sec [all/2/ext 2 (0,25)] [performance_core] 09-10
+[Thu Jan 12 12:44:45.605 2012] 0.025 sec [all/2/ext 3 (0,25)] [performance_core] somewhat ryanj
+[Thu Jan 12 12:46:38.267 2012] 0.000 sec [scan/2/ext 221 (200,25)] [performance_core]
+[Thu Jan 12 12:46:40.619 2012] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Thu Jan 12 12:46:48.753 2012] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Thu Jan 12 12:46:49.793 2012] 0.000 sec [scan/2/ext 221 (150,25)] [performance_core]
+[Thu Jan 12 12:46:50.632 2012] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Thu Jan 12 12:46:54.279 2012] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Thu Jan 12 12:46:55.125 2012] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Thu Jan 12 12:46:56.479 2012] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Thu Jan 12 15:02:01.104 2012] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] tool
+[Thu Jan 12 15:02:25.437 2012] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] tool[band]
+[Thu Jan 12 15:02:33.351 2012] 0.000 sec [all/2/ext 0 (0,25)] [performance_core] tool[band]
+[Thu Jan 12 15:04:58.875 2012] 0.051 sec [all/2/ext 0 (0,25)] [performance_core] L.A Bands
+[Fri Jan 13 23:31:29.432 2012] 0.044 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jan 14 15:15:43.136 2012] 0.018 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sat Jan 14 21:06:26.475 2012] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jan 15 00:52:33.272 2012] 0.000 sec [scan/2/ext 221 (0,25)] [performance_core]
+[Sun Jan 15 00:53:13.960 2012] 0.000 sec [scan/2/ext 221 (25,25)] [performance_core]
+[Sun Jan 15 00:53:15.171 2012] 0.000 sec [scan/2/ext 221 (50,25)] [performance_core]
+[Sun Jan 15 00:53:17.438 2012] 0.000 sec [scan/2/ext 221 (75,25)] [performance_core]
+[Sun Jan 15 00:53:19.191 2012] 0.000 sec [scan/2/ext 221 (100,25)] [performance_core]
+[Sun Jan 15 00:53:21.280 2012] 0.000 sec [scan/2/ext 221 (125,25)] [performance_core]
+[Sun Jan 15 00:56:33.691 2012] 0.000 sec [scan/2/ext 221 (175,25)] [performance_core]
+[Sun Jan 15 03:57:00.188 2012] 0.042 sec [scan/2/ext 221 (25,25)] [performance_core]

@@ -1,0 +1,144 @@
+<% content_for :title, @band.name %>
+
+<div id="title">
+	<div class="cell">
+		<h1><%=h @band.name%></h1>
+	 </div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'Bands', bands_path %></h2>
+ 	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">	
+		<p class="headline">About the band</p>
+		<div class="padding">
+			<% if @band.description.blank? %>
+				<p>No notes have been added yet. 
+				<%= image_tag 'icons/pencil_go.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+				<%= link_to "Write some", edit_band_path(@band) %> now.</p>
+			<% else %>
+				<%= textilize @band.description %>
+				
+				<p class="small_gray">
+					Something wrong?  Something more to add? 
+					<%= image_tag 'icons/pencil_go.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+					<%= link_to "Edit this", edit_band_path(@band) %> entry now.
+				</p>
+			<% end %>
+		</div>
+
+		<p class="headline">Tours</p>
+		<div class="padding">
+			<% if @tours.count > 0 %>
+				<ul>
+				<% for tour in @tours do %>
+					<li><%= link_to tour.name, tour %> (<%= tour.performances.count %> performances)</li>
+						<% if tour.performances.count > 0 %>
+						<ul>
+							<% for performance in tour.performances %>
+								<li><%= link_to performance.compact, performance %> (<%= performance.songs.count %> songs)</li>
+							<% end %>					
+						</ul>
+						<% end %>
+				<% end %>
+				</ul>
+			<% else %>
+			<p><%=h @band.name%> has no tours listed. <%= link_to 'Add one', new_tour_path%></p>
+			<% end %>
+			
+			<p>
+				<%= image_tag 'icons/calendar_add.png', :align => 'absmiddle' %>
+				<%= link_to 'Add another performance', new_performance_path %>
+			</p>
+			
+			<p>
+				<%= image_tag 'icons/world_add.png', :align => 'absmiddle' %>
+				<%= link_to 'Add another tour', new_tour_path %>
+			</p>
+		</div>
+
+		<p class="headline">Songs</p>
+		<div class="padding">
+		<ul>
+			<% if @band.songs.count > 0 %>
+				<% for song in @band.songs do %>
+					<li><%= link_to song.name, song %> (times played: <%= song.performances.count %>)</li>
+				<% end %>
+			<% else %>
+			<p><%=h @band.name%> has no songs listed. <%= link_to 'Add one', new_song_path%></p>
+			<% end %>
+		</ul>
+		<p>
+			<%= image_tag 'icons/music.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+			<%= link_to 'Add another song', new_song_path %>
+		</p>
+		</div>
+	</div>
+	
+
+
+
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<%= image_tag @band.photo.url(:large) %>
+			</div>
+			<div class="band_members">
+				<% if @band.performers.count > 0 %>
+					<% for performer in @band.performers do %>
+						<%= link_to image_tag(performer.photo.url(:avatar), :align => 'middle', :border => 0, :alt => performer.name), performer  %> 
+					<% end %>
+				<% else %>
+					<p><%= link_to 'Create a performer', new_performer_path %> to then assign to this band</p>
+				<% end %>
+			</div>
+		</div>
+	
+
+	 	<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<p>	
+					<%= image_tag 'icons/application_form_edit.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+					<%= link_to 'Edit details', edit_band_path(@band) %> about this band
+				</p>
+				<p>
+					<%= image_tag 'icons/world_add.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+					Add <%= link_to 'another tour', new_tour_path %> by this band
+				</p>
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		<% if current_user && current_user.admin? %>
+				
+			<p class="headline">Edits History</p>
+			
+			<div id="versions" class="padding">
+				
+				<p>
+					Viewing version: <strong><%= @band.version %></strong> 
+					<%if @band.version > 1 %>
+						<br /><%= link_to '&gt;&gt; previous version', :version => @band.version-1 %>
+					<% end %>
+					<% if params[:version]%>
+						<br />See the <%= link_to 'Current version &lt;&lt;', :version => nil %>
+	  				<% end %>
+				</p>
+				
+						
+			</div>
+		<% end %>
+	</div>
+</div>
+
+
+
+

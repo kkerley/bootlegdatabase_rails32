@@ -1,0 +1,67 @@
+<% content_for :title, "Master List of Venues" %>
+
+<div id="title">
+	<div class="cell">
+    	<h1>Venues</h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master List of Venues</h2>
+	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new venue', new_venue_path %> to the site!</p>
+		<div class="padding">
+			<%= will_paginate @venues %>
+			<% @venues.each do |venue| %>
+				<div class="venue_listing">
+					<div class="cell align_top">
+						<div class="image_cell">
+							<%= image_tag venue.photo.url(:avatar), :align => 'middle', :style => 'margin: .3em 1em 1em 0;' %>
+						</div>
+					</div>
+					
+					<div class="venue_text">
+					    <div class="cell">
+							<strong><%= link_to venue.name, venue %></strong>
+						    <span class="address_info">
+								<% if venue.address.blank? %>
+									This venue needs an address. <%= link_to 'Add one', edit_venue_path(venue) %> or <%= link_to 'create one', new_address_path %>
+								<% else %>
+								<%= link_to venue.address.usable, venue.address %>
+								<% end %>
+							</span>	
+							<span class="details">		
+								Performances at this venue: <%= venue.performances.count %> :: 
+						   	    [ <%= link_to 'Edit', edit_venue_path(venue) %>
+							    <% if current_user %>
+									<% if current_user.admin? %>
+									| <strong><%= link_to 'Destroy', venue, :confirm => 'Are you sure?', :method => :delete %></strong>
+									<% end %>
+								<% end %> ]
+							</span>
+						</div>
+					</div>
+				</div>
+				
+			 <% end %>
+			 <%= will_paginate @venues %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>

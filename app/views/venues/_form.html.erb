@@ -1,0 +1,38 @@
+<% form_for @venue, :html => { :multipart => true } do |f| %>
+  <%= f.error_messages %>
+	
+	<p><%= f.label :name %><br />
+		<%= f.text_field :name %>
+	</p>
+	<p><%= f.label :address_id %><br />
+		<%= f.select :address_id, Address.find(:all, :order => "street ASC").collect{ |a| [(a.street + " " + a.city + ", " + a.state + " " + a.zip.to_s + " " + a.country), a.id]}%><br />
+		<span class="bold add padding">
+			<%= image_tag 'icons/map_add.png', :align => 'absmiddle' %>
+			Need to <%= link_to 'add a new address', new_address_path, :id => 'add-new-address' %>?
+		</span>
+	</p>
+	<div class="call_out_red">
+		<p>Currently, there's no easy to way to get the city/state from the address into these fields. Sorry for the duplication.</p>
+	</div>
+	
+	<p><%= f.label :city %><br />
+		<%= f.text_field :city %>
+	</p>
+	<p><%= f.label :state, "State/Province/Country" %><br />
+		<%= f.text_field :state %>
+	</p>
+	
+	<p><%= f.label :photo, "Add a photo" %><br />
+		<%= f.file_field :photo %>
+	</p>
+	<p><%= f.label :description, "About" %><br />
+		<%= f.text_area :description, :rows => 8 %>
+	</p>
+	  
+	<%= render 'layouts/textile_call_out' %>
+	  	
+	<p>
+		<%= f.submit 'Submit' %>
+	</p>
+  
+<% end %>

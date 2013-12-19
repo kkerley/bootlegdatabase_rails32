@@ -1,0 +1,56 @@
+<% content_for :title, "Blog" %>
+
+<div id="title">
+	<div class="cell">
+    	<h1>Blog</h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Site updates and other noteworthy bits of news</h2>
+	</div>
+</div>
+
+<div id="content">
+	<div id="left-col">
+		<% if current_user && current_user.admin? %>
+			<p class="headline"><%= link_to 'Add a new post', new_post_path %> to the site!</p>
+		<% end %>
+		<div class="padding">
+			<%= will_paginate @posts %>
+			<% @posts.each do |post| %>
+				<div class="performance_listing">
+  					<div class="performance_text">
+						<strong><%= link_to post.title, post %></strong>
+						<span class="details small_gray">
+							Posted by <strong><%= post.user.login %></strong> and
+							filed under <strong><%=h post.category %></strong>
+						    <% if current_user %>
+								<% if current_user.admin? %>
+						    		:: [ <%= link_to 'Edit', edit_post_path(post) %> |
+						    		<%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %> ]
+								<% end %>
+							<% end %>
+							
+						</span>
+						<span class="blog_entry">
+							<%= post.description %>	<%= link_to 'Continue reading...', post %>
+						</span>
+						
+						
+					</div>
+				</div>
+			<% end %>
+			<%= will_paginate @posts %>
+		</div>
+	</div>
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>

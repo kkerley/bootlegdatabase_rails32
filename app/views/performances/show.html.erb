@@ -1,0 +1,295 @@
+<% content_for :title, @performance.compact %>
+
+<div id="title">
+	<div class="cell">
+    	<h1><%=h @performance.compact %></h1>
+    </div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+    	<h2><%= link_to @performance.tour.band.name, @performance.tour.band %> | <%= link_to @performance.tour.name, @performance.tour %></h2>
+    </div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<div class="padding">
+			<% if @performance.venue.city.blank? || @performance.venue.state.blank? %>
+				<p class="warning_box">
+					The venue this performance took place at has missing data. 
+					<%= link_to 'Edit it', edit_venue_path(@performance.venue) %> to ensure data integrity
+				</p>
+			<% end %>
+			<% if @performance.venue.address.blank? %>
+				
+				<p class="warning_box">
+					There is no address associated with this performance's venue. 
+					<%= link_to 'Add one', edit_venue_path(@performance.venue) %> or <%= link_to 'create one', new_address_path %>
+				</p>	
+				
+			<% end %>
+			<% unless @performance.performers.count > 0 %>
+				
+				<p class="warning_box">
+					There are no performers associated with this performance. 
+					<%= link_to "Add everyone", performers_performance_path(@performance) %> who performed now.
+				</p>	
+				
+			<% end %>
+			
+
+			
+			
+			<% if @played.length > 0 %>
+			<ol>
+				<% for played_song in @played do %>
+					<% if @performance.modified_order? %>
+						<% @song = Song.find(played_song.song_id) %>
+						<li><%= link_to @song.name, @song  %></li>
+					<% else %>
+						<li><%= link_to played_song.name, played_song %></li>
+					<% end %>
+				<% end%>
+			</ol> 
+			<% else %>
+				<p class="small_gray">
+					No songs listed yet. 
+					<%= link_to "Build the setlist", edit_performance_path(@performance) %> now.
+				</p>
+			<% end %>
+ 		</div>
+		<p class="headline">Performance Notes</p>
+ 		<div class="padding">
+			<% if @performance.description.blank? %>
+				<p>No notes have been added yet.</p> 
+				<p class="small_gray"><%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Write something", edit_performance_path(@performance) %> now.</p>
+			<% else %>
+				<%= textilize @performance.description %>
+				<p class="small_gray">Find an error or need to add something? <%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Edit the notes", edit_performance_path(@performance) %> now.</p>
+			<% end %>
+		</div>
+
+		<p class="headline">Recordings</p>
+		<div class="padding">
+			
+			<% if @performance.recordings.count > 0 %>
+				<% for recording in @performance.recordings %>
+					<div class="gray_box table">
+						
+							<div class="cell">
+								<img src="/images/icons/<%= recording.recording_format %>.png" alt="<%= recording.recording_format %>" style="margin-left: 1em; margin-right: 1em;" />
+							</div>
+							<div class="cell align_top">
+								<% if current_user %>
+									<% if current_user.has_already_collected?(recording) %>
+										<p class="collected">
+											<%= image_tag 'icons/accept.png', :align => 'absmiddle' %>
+											Already <%= link_to 'collected', current_user %>
+										</p>
+									<% else%>
+										<% form_tag(bootleg_add_user_path(recording)) do %>
+											<p><%= submit_tag "I have this" %></p>
+										<% end %>
+									<% end %>
+								<% end %>
+								<p>
+									Taper: <strong><%= link_to recording.taper.name, recording.taper %></strong><br />	
+									Format: <strong><%= recording.recording_format %></strong><br />	
+									
+								</p>
+					          	<p><%= link_to 'Additional information', recording %></p>
+			                </div>       
+						
+					</div>
+				<% end %>
+			<% else %>
+				<p>
+					No recordings listed for this performance yet.
+				</p>
+				<p class="small_gray">
+					<%= image_tag 'icons/calendar_add.png', :align => 'absmiddle' %> <%= link_to 'Add one', edit_performance_path(@performance) %> now and expand your collection!
+				</p>
+			<% end %>
+		</div>
+		
+		<p class="headline">This performance attended by</p>
+		<div class="padding">
+			<% if current_user %>
+				<% if current_user.was_in_attendance?(@performance) %>
+					<p class="collected">
+						<%= image_tag 'icons/accept.png', :align => 'absmiddle' %>
+						You attended this performance
+					</p>
+				<% else%>
+					<% form_tag(add_attendance_user_path(@performance)) do %>
+						<p><%= submit_tag "I was here" %></p>
+					<% end %>
+				<% end %>
+			<% end %>
+                       
+			<% if @attendees.count > 0%>
+				<ul>
+				<% for user in @attendees %>
+					<li><%= link_to user.login, user %></li>
+				<% end %>
+				</ul>
+			<% else %>
+				<p>No one attended this show.</p>
+			<% end %>
+		</div>
+	</div>
+
+	
+
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<%= link_to image_tag(@performance.tour.band.photo.url(:large), :border => 0, :alt => @performance.tour.band.name), @performance.tour.band %>
+			</div>
+			<div class="band_members">
+			<% if @performance.performers.count > 0 %>	
+				<% for performer in @performance.performers do %>
+					<%= link_to image_tag(performer.photo.url(:avatar),  :align => 'middle', :border => 0, :alt => performer.name ), performer  %> 
+				<% end %>
+			<% else %>
+				<p class="small_gray">
+					No performers listed yet.<br />
+					<%= image_tag 'icons/group_add.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %> 
+					<%= link_to "Add everyone", performers_performance_path(@performance) %> who performed now.
+				</p>
+			<% end %>
+			</div>
+		</div>
+		
+		<p class="headline">Performance Details</p>
+			<div class="padding">
+				<div class="gray_box">
+					<div class="cell">
+							<%= image_tag 'icons/lrg_calendar.png', :style => 'margin: 1em 1.5em;' %>
+							
+						</div>
+						<div class="cell align_top">
+							<p>
+								<strong><%= link_to @performance.tour.band.name, @performance.tour.band %></strong><br /> 
+								<%= link_to @performance.tour.name, @performance.tour %><br />
+								<%= @performance.date.to_s %>
+							</p>
+						</div>
+				</div>		
+				
+				<div class="gray_box">
+					<div class="cell">
+						<%= image_tag 'icons/lrg_building.png', :style => 'margin: 1em 1.5em;' %>
+						
+					</div>
+					<div class="cell align_top">
+						<p>
+							<strong><%= link_to @performance.venue.name, @performance.venue %></strong><br />
+							 <% if @performance.venue.city.blank? || @performance.venue.state.blank? %>					 								 
+								<span class="warning_text">
+									This venue is missing data!<br /> 
+									<%= link_to 'Edit it', edit_venue_path(@performance.venue) %> to ensure data integrity<br /><br />
+								</span>
+							 <% end %>							 
+							<% unless @performance.venue.address.blank? %>
+								<%= link_to @performance.venue.address.usable_with_breaks, @performance.venue.address %><br />
+							<% else %>
+								<span class="warning_text">
+									No address for this venue!<br /> 
+									<%= link_to 'Add one', edit_venue_path(@performance.venue) %> or <%= link_to 'create one', new_address_path %>
+								</span>	
+							<% end %>
+							
+						</p>
+					</div>
+				</div>
+				
+				<div class="gray_box">
+					<div class="cell">
+						<%= image_tag 'icons/lrg_guitar.png', :style => 'margin: 1em 1.5em;' %>
+						
+					</div>
+					<div class="cell align_top">
+						<% if @performance.performers.count > 0 %>	
+							<p>
+								<% for performer in @performance.performers do %>
+									<%= link_to performer.name, performer  %><br /> 
+								<% end %>
+							</p>
+							
+						<% else %>
+							<p class="warning_text">
+								No performers listed yet.<br />
+								<%= image_tag 'icons/group_add.png', :align => 'absmiddle' %> 
+								<%= link_to "Add everyone", performers_performance_path(@performance) %> who performed at this show now.
+							</p>
+						
+						<% end %>
+					</div>
+				</div>
+				
+				
+			</div>
+	
+	
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<p>
+					<%= image_tag 'icons/calendar_edit.png', :align => 'absmiddle' %>
+					<%= link_to 'Edit', edit_performance_path(@performance) %> details and songs
+				</p>
+					<% if @performance.songs.count > 1 %>
+						<p>
+							<%= image_tag 'icons/database_go.png', :align => 'absmiddle' %>
+							<%= link_to 'Update', setlist_performance_path(@performance) %> setlist song order
+						</p>
+					<% end %>
+					
+					<p>
+						<%= image_tag 'icons/group_add.png', :align => 'absmiddle' %>
+						<%= link_to 'Add', performers_performance_path(@performance) %> band members
+					</p> 
+				<p>
+					<%= image_tag 'icons/map.png', :align => 'absmiddle' %>
+					View <%= link_to 'venue', @performance.venue %>
+					<% unless @performance.venue.address.blank? %>
+					  and <%= link_to 'address', @performance.address %>
+					<% end %>
+				</p>
+				<p>
+					<%= image_tag 'icons/world.png', :align => 'absmiddle' %>
+					View <%= link_to @performance.tour.name, tour_path(@performance.tour.permalink) %>
+				</p>
+			<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		<% if current_user && current_user.admin? %>
+				
+			<p class="headline">Edits History</p>
+			
+			<div id="versions" class="padding">
+				
+				<p>
+					Viewing version: <strong><%= @performance.version %></strong> 
+					<%if @performance.version > 1 %>
+						<br /><%= link_to '&gt;&gt; previous version', :version => @performance.version-1 %>
+					<% end %>
+					<% if params[:version]%>
+						<br />See the <%= link_to 'Current version &lt;&lt;', :version => nil %>
+	  				<% end %>
+				</p>
+			</div>
+		<% end %>
+		
+	</div>
+</div>
+
+

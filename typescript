@@ -1,0 +1,86 @@
+Script started on Thu Jun 14 18:47:05 2012
+[?1034hbash-3.2$ ls
+README		db		lib		test
+Rakefile	doc		log		tmp
+app		favicon.gif	public		typescript
+config		favicon.ico	script		vendor
+bash-3.2$ cd csr[K[K[Kscript
+bash-3.2$ ls
+about		dbconsole	generate	plugin		server
+console		destroy		performance	runner
+bash-3.2$ cd /,[K[K,[K./
+bash-3.2$ cd[K[Krails script/scri[K[K[Kerver
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+      [--edge]                   # Setup the application with Gemfile pointing to Rails repository
+      [--old-style-hash]         # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+  -G, [--skip-git]               # Skip Git ignores and keeps
+  -b, [--builder=BUILDER]        # Path to a application builder (can be a filesystem path or URL)
+  -r, [--ruby=PATH]              # Path to the Ruby binary of your choice
+                                 # Default: /Users/kylekerley/.rvm/rubies/ruby-1.8.7-p358/bin/ruby
+      [--dev]                    # Setup the application with Gemfile pointing to your Rails checkout
+  -d, [--database=DATABASE]      # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                 # Default: sqlite3
+      [--skip-bundle]            # Don't run bundle install
+      [--skip-gemfile]           # Don't create a Gemfile
+  -m, [--template=TEMPLATE]      # Path to an application template (can be a filesystem path or URL)
+  -S, [--skip-sprockets]         # Skip Sprockets files
+  -O, [--skip-active-record]     # Skip Active Record files
+  -T, [--skip-test-unit]         # Skip Test::Unit files
+  -j, [--javascript=JAVASCRIPT]  # Preconfigure for selected JavaScript library
+                                 # Default: jquery
+  -J, [--skip-javascript]        # Skip JavaScript files
+
+Runtime options:
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Supress status output
+
+Rails options:
+  -v, [--version]  # Show Rails version number and quit
+  -h, [--help]     # Show this help message and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+bash-3.2$ script/server
+bash: script/server: No such file or directory
+bash-3.2$ ls
+about		dbconsole	generate	plugin		server
+console		destroy		performance	runner
+bash-3.2$ cd ,.[K[K./
+bash-3.2$ ls
+about		dbconsole	generate	plugin		server
+console		destroy		performance	runner
+bash-3.2$ cd /.
+bash-3.2$ ls
+Applications			dev
+Developer			etc
+Library				home
+Network				mach_kernel
+System				net
+User Guides And Information	opt
+Users				private
+Volumes				sbin
+bin				tmp
+cores				usr
+data				var
+bash-3.2$ exit
+exit
+
+Script done on Thu Jun 14 18:48:07 2012

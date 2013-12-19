@@ -1,0 +1,10 @@
+<% @played_songs.each do |played_song| %>
+<p>
+	id: <%= played_song.id %><br />
+	performance_id: <%= played_song.performance_id %><br />
+	song_id: <%= played_song.song_id %><br />
+	play_order: <%= played_song.play_order %>
+</p>
+
+
+<% end %>

@@ -1,0 +1,115 @@
+<% content_for :title, @recording.name %>
+
+<div id="title">
+	<div class="cell">
+		<h1><%=h @recording.performance.compact %></h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%=h @recording.recording_format %> Taped by: <%=h @recording.taper.name %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Information</p>
+		<div class="padding">
+						
+			<p>
+			  <strong>Taper: </strong>
+			  <%= link_to @recording.taper.name, @recording.taper %>
+			</p>
+			
+			<p>
+			  <strong>Format:</strong>
+			  <%= @recording.recording_format %>
+			</p>
+			
+			<p>
+			  <strong>Lineage:</strong>
+			  <%= textilize @recording.lineage %>
+			</p>
+		</div>	
+		<p class="headline">Notes</p>  
+		<div class="padding">
+			
+			<% if @recording.notes.blank? %>
+				<p>No notes have been added yet.</p> 
+				<p class="small_gray"><%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Write something", edit_recording_path(@recording) %> now.</p>
+			<% else %>
+				<%= textilize @recording.notes %>
+				<p class="small_gray">Find an error or need to add something? <%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Edit the notes", edit_recording_path(@recording) %> now.</p>
+			<% end %>
+		  	
+			
+			<p>	  
+			  <%= link_to @recording.link, @recording.link %>
+			</p>
+		</div>
+		<p class="headline">This recording collected by</p>
+		<div class="padding">
+			<% if current_user %>
+				<% if current_user.has_already_collected?(@recording) %>
+					<p class="collected">
+						<%= image_tag 'icons/accept.png', :align => 'absmiddle' %>
+						Already <%= link_to 'collected', current_user %>
+					</p>
+				<% else%>
+					<% form_tag(bootleg_add_user_path(@recording)) do %>
+						<p><%= submit_tag "I have this" %></p>
+					<% end %>
+				<% end %>
+			<% end %>
+			<% if @collectors.count > 0  %>
+				<ul>
+				<% for user in @collectors %>
+					<li><%= link_to user.login, user%></li>
+				<% end %>
+				</ul>
+			<% else %>
+				<p>No one has collected this recording yet.</p>
+			<% end %>
+		</div>
+	</div>
+
+
+
+	<div id="right-col">
+		<p class="headline">Controls</p>
+		<div id="controls">        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cd_edit.png', :align => 'absmiddle' %>
+					<%= link_to 'Edit', edit_recording_path(@recording) %> this recording
+				</p>
+				<p>
+					<%= image_tag 'icons/calendar.png', :align => 'absmiddle' %>
+					View this <%= link_to 'performance', @recording.performance %>
+				</p>
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		<% if current_user && current_user.admin? %>
+				
+			<p class="headline">Edits History</p>
+			
+			<div id="versions" class="padding">
+				
+				<p>
+					Viewing version: <strong><%= @recording.version %></strong> 
+					<%if @recording.version > 1 %>
+						<br /><%= link_to '&gt;&gt; previous version', :version => @recording.version-1 %>
+					<% end %>
+					<% if params[:version]%>
+						<br />See the <%= link_to 'Current version &lt;&lt;', :version => nil %>
+	  				<% end %>
+				</p>
+			</div>
+		<% end %>
+	</div>
+</div>

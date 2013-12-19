@@ -1,0 +1,40 @@
+<% content_for :title, "Add a new Recording" %>
+<div id="title">
+	<div class="cell">
+		<h1>Create a new recording</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'recordings', recordings_path %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Information</p>
+		<div class="padding">
+
+			<%= render 'form' %>
+			
+		</div>
+	</div>	
+
+
+	<div id="right-col">
+		<p class="headline">Controls</p>
+		<div id="controls">        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', recordings_path %> this recording
+				</p>
+				<p>
+					<%= image_tag 'icons/application_form_add.png', :align => 'absmiddle' %>
+					Add a <%= link_to 'new performance', new_performance_path %>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

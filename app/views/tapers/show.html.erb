@@ -1,0 +1,62 @@
+<% content_for :title, "Viewing info on taper" + @taper.name %>
+<div id="title">
+	<div class="cell">
+		<h1><%=h @taper.name %></h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'Tapers', tapers_url %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Preferred equipment</p>
+		<div class="padding">	  		
+  			<% if @taper.preferred_equipment.blank? %>
+				<p>No preferred equipment has been added yet.</p> 
+				<p class="small_gray"><%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Add something", edit_taper_path(@taper) %> now.</p>
+			<% else %>
+				<%= textilize @taper.preferred_equipment %>
+				<p class="small_gray">Find an error or need to add something? <%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+				<%= link_to "Edit the notes", edit_taper_path(@taper) %> now.</p>
+			<% end %>
+		</div>
+		
+		<p class="headline">Recordings</p>
+		<div class="padding">
+			<% if @taper.recordings.count > 0 %>
+				<% for recording in @taper.recordings do %>
+					<p>
+						<%= link_to recording.performance.compact, recording %>
+					</p>
+				<% end %>	
+			<% else %>
+				<p class="small_gray">
+					No recordings added yet.
+					<%= image_tag 'icons/cd_add.png', :align => 'absmiddle' %>
+					<%= link_to "Add one", new_recording_path %> now.
+				</p>
+			<% end %>
+		</div>
+	</div>
+	<div id="right-col">
+		<p class="headline">Controls</p>
+		<div id="controls">
+        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cd_edit.png', :align => 'absmiddle' %>
+					<%= link_to 'Edit', edit_taper_path(@taper) %> this taper
+				</p>
+				
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		
+	</div>
+</div>

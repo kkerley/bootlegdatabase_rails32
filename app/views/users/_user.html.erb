@@ -1,0 +1,22 @@
+<% form_for @user do |form| %>
+	<%= form.error_messages %>
+			<p><%= form.label :login, "Username" %><br />  
+				<%= form.text_field :login %>  
+			</p> 
+			<p><%= form.label :email %><br />  
+				<%= form.text_field :email %>  
+			</p> 
+			
+			<p>You may change your password if you wish. Just enter a new one and confirm it. Otherwise, leave it blank and it'll remain the same.</p>
+			
+			<p><%= form.label :password %><br />    
+				<%= form.password_field :password %>  
+			</p>
+			<p><%= form.label :password_confirmation, "Confirm" %><br />   
+				<%= form.password_field :password_confirmation %>  
+			</p> 
+			<p>  
+				<%= form.submit "Submit" %>  
+			</p>  
+		
+<% end %>

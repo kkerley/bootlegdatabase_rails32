@@ -1,0 +1,10 @@
+<p>
+	<%= f.label :song_id  %> 
+	<% if f.object.song.blank? %>
+		<%= 'invalid relationship' %>
+	<% else %>
+		<%= f.object.song.name %>
+	<% end %><br /> 
+	<%= f.label :play_order %> 
+	<%= f.text_field :play_order %>	
+</p>	      

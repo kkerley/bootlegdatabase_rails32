@@ -1,0 +1,13 @@
+<h1><%= @tour.band.name %> | <%= @tour.name %> Performances</h1>
+
+<ul>
+<% for performance in @tour.performances %>
+	
+		<li><%= link_to performance.compact, performance %></li>
+		
+<% end %>
+
+
+
+</ul>
+<p><%= link_to 'Add another performance', new_performance_path %> to this tour.</p>

@@ -1,0 +1,36 @@
+<div id="title">
+	<div class="cell">
+		<h1>Editing <%=h @taper.name %></h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'Tapers', tapers_url %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Information</p>
+		<div class="padding">
+
+			<%= render 'form' %>
+
+		</div>
+	</div>
+
+
+
+	<div id="right-col">
+		<div id="controls">
+        	<p class="headline">Controls</p>
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', @taper %> these changes
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

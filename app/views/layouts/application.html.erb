@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Bootleg Database :: <%=h yield(:title) %></title>
+		<link rel="icon" href="/images/favicon.ico" type="image/x-icon">	
+		<%= javascript_include_tag 'jquery' %>
+		<%= javascript_include_tag 'jquery.autocomplete' %>
+		<%= javascript_include_tag 'facebox' %>		
+		<%= javascript_include_tag 'application' %>
+
+		<%= stylesheet_link_tag 'style' %>
+		<%= stylesheet_link_tag 'jquery.autocomplete' %>
+		<%= stylesheet_link_tag 'errors' %>
+		<%= stylesheet_link_tag 'facebox' %>
+	
+	</head>
+	<body>
+		
+	<div id="wrapper">
+	<div id="header" class="row">
+    	
+		<div id="user_tools">
+        	<div class="cell">
+        		
+				  <% if current_user %>  
+					  <% @user = current_user %>
+				      <%= image_tag @user.photo.url(:avatar), :style => "margin-bottom: 1em;" %>
+					  <p class="bold">
+						  Hey <%= current_user.login %>! (<%= link_to 'Log out', logout_path %>)<br /> 
+						  Collection: <%= link_to current_user.recordings.count.to_s + " bootlegs", current_user %><br />
+						  Attendance: <%= link_to current_user.performances.count.to_s + " performances", current_user%>
+					  </p> 
+				  <% else %>  
+					  <p>
+						  <%= link_to "Register", new_user_path, :id => 'register-link' %> an account |
+						  <%= link_to "log in", login_path, :id => 'login-link' %> to yours
+					  </p>  
+				  <% end %>
+					
+			   </div>
+			   
+        </div>
+    	<div id="nav">
+        	<div class="cell">
+    			<ul>
+					<li><%= link_to 'Performances', performances_url %></li>
+					<li><%= link_to 'Recordings', recordings_url %></li>
+					<li><%= link_to 'Bands', bands_url %></li>
+					<li><%= link_to 'Locations', venues_url %></li>
+				</ul>
+	   </div>
+      </div>
+    </div>
+    
+    
+ 
+    <div id="breadcrumbs" class="row">
+    	<div class="cell">
+    		<%= render_crumbs %>	
+		</div>
+  	</div>
+	    <!-- end of breadcrumbs -->
+   	<div id="bg_shadow">
+		<% unless flash[:notice].blank? %>
+			<div>
+				<p class="notice" id="flash_box"><%= flash[:notice]%></p>
+			</div>
+		<% end %>
+		
+		<%= yield %>
+	
+		
+		
+	<div id="footer">
+		<div id="footer_nav">
+			
+			<ul>
+				<li><strong><%= link_to 'Performances', performances_url %></strong></li>
+				<li><%= link_to 'Bands', bands_url %></li> 
+				<li><%= link_to 'Performers', performers_url %></li>
+				<li><%= link_to 'Tours', tours_url %></li> 
+				<li><%= link_to 'Addresses', addresses_url %></li>
+				<li><%= link_to 'Venues', venues_url %></li>
+				<li><%= link_to 'Songs', songs_url %></li>
+				<li><%= link_to 'Blog', posts_url %></li>
+			</ul>
+		</div>
+		
+		<div class="cell">
+			<div>
+				<h3>Technical info</h3>
+				
+				<p>This site will only function correctly in the following browers</p>
+				<ul>
+					<li>Internet Explorer 8+</li>
+					<li>Firefox 2.0+</li>
+					<li>Google Chrome</li>
+					<li>Apple Safari</li>
+					<li>Opera 9+</li>
+				</ul>
+				<p>All other browsers will result in a broken viewing experience. Work is being done to accomodate IE7 and below.</p>
+				<p><%= image_tag 'icons/ruby.png', :align => 'absmiddle'%> <strong>Rails-powered</strong>.</p>
+				<img src="/images/logo_64.png" alt="bootlegdatabase" style="float: left; margin-right: 1em;" />
+				<p>Bootleg Database name, Bootleg Database logo and all Bootleg Database website design &amp; development &copy; 2010 Kyle Kerley.</p>
+				
+				
+			</div>
+    		<div class="middle_col">
+    			<h3>Disclaimer(s)</h3>
+				<p><strong>No live recordings are stored at or served from this site</strong>. It's for informational and archival	purposes only.</p>
+						
+				<p><strong>It's also a work in progress.</strong></p> 
+				<p>Many new features are planned in coming revisions. The ultimate goal of this site is to create an online master list of all the bootlegs 
+				you've collected from every band you follow.</p>
+				<p class="bold">Read more <a href="/about">about the site</a> and keep up with new developments <a href="/blog">in the blog</a>.</p>
+				<p style="padding-top: 1em;">
+				<a href="http://www.dreamhost.com/r.cgi?634138"><img src="/images/120x90-b.gif" alt="DreamHost - use promo code KYLSENTME45 and save $45 on your first year of hosting!" border="0" style="float: left; margin-right: 10px" /></a>
+				I use <a href="http://www.dreamhost.com/r.cgi?634138">Dreamhost</a>. Use the link or promo code <strong>KYLESENTME45</strong> to save $45 on your first year of hosting!
+				</p>
+			</div>
+			<div class="third_col">
+				<ul>
+					<li><a href="/contact" id="contact-link"><strong>Contact</strong></a></li>
+					<li><a href="/about">About</a></li>
+					<li><%= link_to 'Blog', blog_url %></li>			
+					<% if current_user %>
+						<li><%= link_to "Log out", logout_path %></li>
+					<% else %>
+						<li><%= link_to "Register", new_user_path, :id => 'register-link-footer' %> /
+						<%= link_to "log in", login_path, :id => 'login-link-footer' %></li>
+					<% end %>
+				</ul>
+				<img src="/images/headphones.jpg" alt="Build your collection" />
+			</div>
+		</div>
+                
+         
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15828691-1");
+pageTracker._setDomainName(".bootlegdatabase.com");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+			
+	</body>
+</html>

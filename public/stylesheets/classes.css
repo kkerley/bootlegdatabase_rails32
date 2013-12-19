@@ -1,0 +1,146 @@
+.page_controls{
+	margin-top: 3em;
+	text-align: left;
+}	
+	.page_controls p{ font-size: 1em; }
+	.page_controls p.headline{ font-size: 1.2em; }
+	.page_controls a{ font-weight: bold; }
+	
+.bold{ font-weight: bold; }
+
+.fields{
+	margin: 1em 0 2em 0;
+}
+	
+.clear{	
+	clear: both;
+	display: block; 
+}
+
+.headline{  
+	background-color: #333; 
+	color: #fefefe;
+	font-size: 1.2em; 
+	font-weight: bold; 
+	padding: .3em 1em .2em 1em;
+	text-transform: uppercase; 
+	max-width: 23em;
+}
+
+.venue_listing{ 
+	background-color: #efefef;
+	border: 1px solid #dfdfdf;
+	clear: both;
+	display: block;
+	font-size: 1.7em; 
+	margin-bottom: 1.3em; 
+	padding: 0.1em 1em;
+	text-transform: uppercase;		
+}
+
+.performance_listing{ 
+	clear: both;
+	display: block;
+	font-size: 1.7em; 
+	margin-bottom: 1.3em; 
+	text-transform: uppercase;		
+}
+
+.performance_listing img{
+	float: left;
+	margin-right: 1em;
+}
+
+.address_info{
+	display: block;
+	font-size: 0.75em;
+}
+
+.details a, .details a:visited{ color: #333; text-decoration: none; }
+.details a:hover { color: #fefefe; text-decoration: underline; }
+
+
+.details{
+	display: block;
+	font-size: 0.6em;
+}
+
+.performance_text{
+	top: auto;
+	bottom: auto;
+	display: inline;
+	vertical-align: middle;
+	position: relative;
+}
+
+.notice{ color: #009933; padding: 3px 5px 3px 5px; border: 1px solid #009933; background-color: #cdffcd; }
+.performer_name{ padding-right: 1em; }
+.important{ 
+	background-color:#ffdfdf;
+	border-bottom: 1px solid #ff4545;
+	border-top: 1px solid #ff4545;		 
+	display: block; 
+	font-size: 0.9em;
+	padding: 1em 1em 1em 4em;
+	margin-bottom: 3em;
+	margin-top: 2em;
+}
+
+.call_out_yellow{
+	background-color: #fff6d0;
+	border-top: 1px solid #ffcc00;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	margin: 1em 2em;
+	padding: .5em 2em;
+	
+}
+
+.call_out_red{
+	background-color:#ffdfdf;
+	border-top: 1px solid #ff4545;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	margin: 1em 2em;
+	padding: .5em 2em;
+	
+}
+
+.small_gray{
+	color: #555;
+	font-size: 0.8em;
+}
+
+.submit_btn{
+	margin-left: 9.7em;
+}
+
+.extra_small{
+	font-size: 0.8em;	
+}
+
+.label_margin{
+	margin: 1em 1em 1em 3em;
+}
+
+.add_venue_fields{
+	border: 1px solid #cecece;
+	background-color: #F0F0F0;
+	padding-bottom: 1em;
+	width: 400px;
+}
+
+.remove_fields{
+	margin: 1em 3em 0 24em;
+}
+
+.add{
+	text-transform: uppercase;
+}
+
+.date_selection{
+	margin: 0.3em 0 0.3em 4em;
+}
+	.date_selection select{
+		margin: 0;
+	}

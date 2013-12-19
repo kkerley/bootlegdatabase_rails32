@@ -1,0 +1,95 @@
+<% content_for :title, "Manage your entire collection of live recordings in one spot" %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Welcome to bootlegdatabase.com</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Manage your entire collection of live recordings in one spot</h2>
+	</div>
+</div>
+
+<div id="content">
+	<div id="left-col">
+		<div class="padding">
+			
+			<h3>Hi. Here's a little about this site.</h3>
+			<p>The goal of this site is simple: <strong>provide a one-stop location to manage your collection of all known audio and video recordings of your 
+			favorite music.</strong> This is accomplished by tracking live performances and associating bootlegged recordings with each concert.</p> 
+			
+			<div class="search_box_main home_page_box">
+			  <h3><strong>Search all performances</strong></h3>
+    		<%= render 'performances/search_form' %>
+    		<p>by date, notes, setlist, venue, band, tour and even bootleg taper (if any bootlegs exist for that performance)</p>
+    	</div>
+			
+			<h3>This is all done by you, the users.</h3>
+			<p>Without your help and input, this site will be nothing. The trading community at large is being entrusted 
+			 to help fill-in and police the data to ensure it remains correct.  
+			 <ul>
+			 	<li>If you see something wrong, <strong>CHANGE IT</strong>.</li> 
+			 	<li>If you see something incorrect, <strong>CHANGE IT</strong>.</li> 
+				<li>Is there a performance or recording missing from the database? <strong> ADD IT</strong>. You have the power to do so.</h3>
+			</ul>
+			<p>During the beta stages of this site, it will be soley for Nine Inch Nails live performances and recordings.  
+			They played a few hundred shows between 2005-2009 and the community is very alive, active and thorough which makes it perfect 
+			for piloting</p>
+			<p><strong><%= link_to 'View all NIN performances currently in the database', performances_path %>.</strong></p>
+			<h3 class="call_out_red">
+				Please read <a href="/help">this help page</a> before adding any new content to the site! 
+			</h3>
+			<p>Read more <strong><a href="/about">about the site</a></strong> or just go ahead and dive right in by 
+			<strong><%= link_to 'creating a new account', new_user_path %></strong> to start building your collection and helping the site grow!</p>
+			
+			
+			<h3 style="border: 1px solid #ccc; background-color: #ececec; padding: 3px; font-size: 1.5em">Latest updates from the admins</h3>
+			<div class="padding">
+				<% for post in @posts do %>
+				<p>
+					<strong><%= link_to post.title, post %></strong><br />
+					<span class="small_gray">Posted <%= post.created_at%> by <strong><%= post.user.login %></strong> and filed under <strong><%=h post.category %></strong></span><br />
+					<span class="extra_small"><%= post.description %> <%= link_to 'Continue reading', post%></span>
+				</p>
+				<% end %>
+				<p class="extra_small bold">More from <%= image_tag 'icons/page_white_go.png', :align => 'absmiddle' %> <%= link_to 'the blog', posts_url %></p>
+			</div>			
+			
+			
+			
+		</div>
+	</div>
+	<div id="right-col">
+		
+			<% unless current_user %>
+				<p class="headline">
+					<%= link_to 'SIGN UP NOW', new_user_path %> and start building your collection!
+				</p>
+			<% end %>
+			
+		<p class="headline">
+			Site at a glance
+		</p>
+		<div class="padding">
+		
+			<ul style="list-style: none; padding: 0 0 0 1em;">	
+				<li><strong><%= @performances.length.to_s %></strong> <%= link_to "Performances", performances_url %></li>
+				<li><strong><%= @recordings.length.to_s %></strong> <%= link_to "Recordings", recordings_url %></li>
+				<li><strong><%= @songs.length.to_s %></strong> <%= link_to "Songs", songs_url %></li>
+				<li><strong><%= @performers.length.to_s %></strong> <%= link_to "Performers", performers_url %></li>
+				<li><strong><%= @venues.length.to_s %></strong> <%= link_to "Venues", venues_url %></li>
+				<li><strong><%= @users.length.to_s %></strong> <%= link_to "Users", users_url %></li>
+			</ul>
+		</div>
+		
+		<p class="headline">Controls</p>
+		<div id="controls">		 	
+           <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>

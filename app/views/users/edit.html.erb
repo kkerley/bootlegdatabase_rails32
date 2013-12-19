@@ -1,0 +1,89 @@
+<div id="title">
+	<div class="cell">
+		<h1>Editing <%= @user.login %>'s profile</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>User profiles</h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Information</p>
+		<div class="padding">
+			<% form_for @user, :html => { :multipart => true} do |form| %>
+			<%= form.error_messages %>
+				
+				<p>Standard information. Most of it is optional for now. In a later release, when trading is available, an actual shipping address will be required though never shown</p>
+				<p><label>Username</label><br />   
+					<%= @user.login %>  
+				</p> 
+				<p><%= form.label :email %><br />  
+					<%= form.text_field :email %>  
+				</p>  
+				
+				<p><%= form.label :given_name, "Name" %><br />  
+					<%= form.text_field :given_name %>
+				</p>	
+				
+				<p><%= form.label :address %><br />  
+					<%= form.text_area :address, :rows =>3 %>
+				</p>
+				
+				<p><%= form.label :about %><br />  
+					<%= form.text_area :about, :rows =>3 %>
+				</p>
+				
+				<p><%= form.label :interests %><br />  
+					<%= form.text_area :interests, :rows =>3 %>
+				</p>
+				
+				<p><%= form.label :occupation %><br />  
+					<%= form.text_field :occupation %>
+				</p>
+				<p><%= form.label :website %><br />  
+					<%= form.text_field :website %>
+				</p>
+				<p><%= form.label :photo, "Upload a photo" %><br />
+					<%= form.file_field :photo %>
+				</p>
+				
+				<p>You may change your password if you wish. Just enter a new one and confirm it. Otherwise, leave it blank and it'll remain the same.</p>
+				
+				<p><%= form.label :password%><br />    
+					<%= form.password_field :password %>  
+				</p>
+				<p><%= form.label :password_confirmation, "Confirm" %><br />   
+					<%= form.password_field :password_confirmation %>  
+				</p>
+				<% if current_user %>			
+					<% if current_user.admin? %>
+						<p><%= form.label :admin, "Administrator?" %><br />  
+							<%= form.check_box :admin %>	
+						</p>
+					<% end %>
+				<% end %>		
+				<p>  
+					<%= form.submit "Submit" %>  
+				</p>  
+			
+			<% end %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+		<div id="controls">        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', @user %> these changes
+				</p>
+				
+			</div>
+		</div>
+	</div>
+</div>

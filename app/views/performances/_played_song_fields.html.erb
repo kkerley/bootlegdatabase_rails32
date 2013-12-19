@@ -1,0 +1,6 @@
+<div class="fields">
+	<p><%= f.label :song_name, "Song" %>
+	<%= f.text_field :song_name, :class => 'auto-complete-song-name' %>
+	<%= image_tag 'icons/delete.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+	<%= link_to_remove_fields "remove", f %></p>
+</div>

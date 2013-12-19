@@ -1,0 +1,19 @@
+<div class="fields">
+	<div class="add_venue_fields">
+		<p>
+			<%= f.label :name %><br />
+			<%= f.text_field :name %>
+		</p>
+		<p>
+			<%= f.label :city %><br />
+			<%= f.text_field :city %>
+		</p>
+		<p>
+			<%= f.label :state, "State/Country" %><br />
+			<%= f.text_field :state %>
+		</p>
+	</div>
+	<p class="extra_small remove_fields"><%= image_tag 'icons/delete.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+	<%= link_to_remove_fields "Remove the above venue", f %></p>
+	
+</div>

@@ -1,0 +1,6 @@
+production:
+  bin_path: '/usr/local/bin'
+  searchd_binary_name: "searchd"
+  indexer_binary_name: "indexer"
+  #searchd_file_path: '/home/ps_kkerley/bootlegdatabase.com/db/sphinx'
+

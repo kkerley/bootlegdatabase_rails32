@@ -1,0 +1,36 @@
+<h1><%= @performance.tour.band.name %> | <%= @performance.tour.name %></h1>
+
+<h2><%=h @performance.date %> - <%=h @performance.venue.name %>: <%=h @performance.venue.city %>, <%=h @performance.venue.state %></h2>
+
+<h3>Setlist</h3>
+
+<% if @performance.songs.count > 0 %>
+	<ol>
+	<% for song in @performance.songs do %>
+		<li><%= song.name %></li>
+	<%end%>
+	</ol>
+<% else %>
+	<p>No songs yet listed. Add some below.</p>
+<% end %>
+
+
+<% if @performance.songs.count < Song.count then %>
+	<% form_tag(song_add_performance_path(@performance)) do %>
+		<fieldset>
+		
+		<% for song in @performance.was_not_played do %>
+			<p>
+				<label><%=h song.name %></label>
+				<%= check_box_tag "songs[]", song.id %> Add to setlist
+			</p>
+		<% end %>
+		
+		<p class="submit_btn">
+			<%= submit_tag "Add checked songs" %>
+		</p>
+		</fieldset>
+	<% end %>
+<% else %>
+	<p>No more songs to add.</p>
+<% end %>

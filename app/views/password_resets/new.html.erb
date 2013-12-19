@@ -1,0 +1,28 @@
+<div id="title">
+	<div class="cell">
+		<h1>So you've forgotten your password?</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Fill out the form and we'll email instructions on resetting your password</h2>
+	</div>
+</div>
+
+<div id="content">
+	<div id="left-col">
+		<div class="padding">
+			<% form_tag password_resets_path do %>
+			 	<p><label>Email</label></p>
+			  		<%= text_field_tag "email" %>
+				
+				<p class="submit_btn">
+					<%= submit_tag "Reset my password" %>
+				</p>
+			 
+			<% end %>
+		</div>
+	</div>
+</div>

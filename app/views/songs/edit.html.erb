@@ -1,0 +1,42 @@
+<% content_for :title, "Editing details for " + @song.name %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Editing <%= @song.name %></h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'songs', songs_path %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">About <%= @song.name %></p>
+		<div class="padding">
+
+			<%= render 'form' %>
+
+		</div>
+	</div>	
+
+
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<%= image_tag @song.band.photo.url(:large) %>
+			</div>
+		</div>		
+		<p class="headline">Controls</p>
+		<div id="controls">        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', @song %> these changes
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

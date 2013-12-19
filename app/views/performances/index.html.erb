@@ -1,0 +1,72 @@
+<% content_for :title, "Master List of Performances" %>
+
+<div id="title">
+	<div class="cell">
+    	<h1>Performances</h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master List of Performances</h2>
+	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new performance', new_performance_path %> to the site!</p>
+		<div class="padding">
+			
+			<div class="search_box_main">
+			  <p>Search all performances by date, notes, setlist, venue, band, tour and even by taper (if recordings exist)</p>
+    		<%= render 'search_form' %>
+    	</div>
+    	
+    	<% unless params[:search].blank? %>
+    	  <h3 class="search_results">  	  
+      	  Your search for <strong><%= params[:search] %></strong> returned <%= @performances_total %> results
+    	  </h3>
+    	<% end %>			
+    	
+			<%= will_paginate @performances %>
+			<% @performances.each do |performance| %>
+			<div class="performance_listing">
+				<p>
+					<% unless performance.tour.band.photo.url.blank? %>
+						<%= image_tag performance.tour.band.photo.url(:avatar), :align => 'middle', :style => 'margin: .3em 1em 1em 0;' %>
+					<% else %>
+						<img src="/images/missing.png" alt="Image missing. You should add one!" align="middle" style="margin: .3em 1em 1em 0;" />
+					<% end %>
+				</p>	
+					
+					<div class="performance_text">
+						<strong><%= link_to performance.compact, performance %></strong>  
+					    
+						<span class="details dark">
+						<%= link_to performance.tour.band.name, performance.tour.band %> | 
+						<%= link_to performance.tour.name, performance.tour %> | <strong>Recordings: <%= performance.recordings.count %></strong> :: 
+							[ <%= link_to 'Edit', edit_performance_path(performance) %>
+						    <% if current_user %>
+								<% if current_user.admin? %>
+									| <strong><%= link_to 'Destroy', performance, :confirm => 'Are you sure?', :method => :delete %></strong>
+								<% end %>
+							<% end %> ]
+						</span>
+					</div>
+			</div>
+			<% end %>
+			<%= will_paginate @performances %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>

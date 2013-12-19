@@ -1,0 +1,35 @@
+<div id="title">
+	<div class="cell">
+		<h1>Create a new static content page</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'Static Content Pages', pages_path %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Information</p>
+		<div class="padding">
+
+			<%= render 'form' %>
+		
+		</div>
+	</div>	
+
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+		<div id="controls">        	
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', pages_path %> this page
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

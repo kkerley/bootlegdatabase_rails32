@@ -1,0 +1,111 @@
+<% content_for :title, @tour.name %>
+
+<div id="title">
+	<div class="cell">
+    	<h1><%=h @tour.name %></h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to @tour.band.name, @tour.band %></h2>
+	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Tour Notes</p>
+		<div class="padding">
+			<% if @tour.description.blank? %>
+				<p>	No notes have been added yet.</p> 
+					
+				<p class="small_gray">
+					<%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+					<%= link_to "Write some", edit_tour_path(@tour) %> now.
+				</p>
+			<% else %>
+				<%= textilize @tour.description %>
+				<p class="small_gray">
+					Something wrong?  Something more to add? 
+					<%= image_tag 'icons/pencil_go.png', :align => 'absmiddle' %>
+					<%= link_to "Edit this", edit_tour_path(@tour) %> entry now.
+				</p>
+			<% end %>
+		</div>
+
+		<p class="headline"><%= @tour.name %> had <%= @performances.count %> Performances</p>
+		<div class="padding">
+			<% if @performances.count > 0 %>
+			<ul>
+				<% for performance in @performances %>
+					<li><%= link_to performance.compact, performance %> (<%= performance.songs.count %> songs)</li>
+				<% end %>					
+			</ul>
+			<p>
+				<%= image_tag 'icons/calendar_add.png', :align => 'absmiddle' %>
+				<%= link_to 'Add a new performance', new_performance_path %> to this tour.
+			</p>
+			<% else %>
+			<p>
+				No performances have been entered yet for this tour.  
+				<%= image_tag 'icons/calendar_add.png', :align => 'absmiddle' %>
+				<%= link_to 'Add one', new_performance_path %> to help build the database.
+			</p>
+			<% end %>
+		</div>
+	</div>
+
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<% if @tour.photo? %>
+					<%= image_tag @tour.photo.url(:large) %>
+				<% else %>
+					<p class="small_gray">
+						No photo.
+						<%= image_tag 'icons/picture_add.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %> 
+						<%= link_to 'Add one', edit_tour_path(@tour) %> for this tour
+					</p>
+				<% end %>
+			</div>
+		</div>
+
+	
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<p>	
+					<%= image_tag 'icons/application_form_edit.png', :align => 'absmiddle' %>
+					<%= link_to 'Edit details', edit_tour_path(@tour) %> about this tour
+				</p>
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+		
+		<% if current_user && current_user.admin? %>
+				
+			<p class="headline">Edits History</p>
+			
+			<div id="versions" class="padding">
+				
+				<p>
+					Viewing version: <strong><%= @tour.version %></strong> 
+					<%if @tour.version > 1 %>
+						<br /><%= link_to '&gt;&gt; previous version', :version => @tour.version-1 %>
+					<% end %>
+					<% if params[:version]%>
+						<br />See the <%= link_to 'Current version &lt;&lt;', :version => nil %>
+	  				<% end %>
+				</p>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<!-- calling the partial on the _form partial -->
+<% f.fields_for :played_songs do |builder| %>
+	<%= render 'song_order', :f => builder %>
+<% end %>
+
+
+<!-- showing the @played songs -->
+
+<% for played_song in @played do %>
+	<% @song = Song.find(played_song.song_id) %>
+ <p><%= @song.name  %> <%= played_song.play_order  %></p>
+  
+<% end%>
+
+
+<!-- editing the @played songs -->
+
+<% for played_song in @played do %>
+	<% @song = Song.find(played_song.song_id) %>
+	 <p><%= f.label :song_id  %> <%= played_song.song_id %><br /> 
+	 	<%= f.label :play_order %> (currently: <%= played_song.play_order %>) 
+		<%= f.text_field :play_order %></p>	      
+<% end%>

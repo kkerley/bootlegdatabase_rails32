@@ -1,0 +1,77 @@
+[Tue Jun  1 19:32:10.558 2010] [17074] accepting connections
+[Thu Jun 10 17:24:41.734 2010] [17074] caught SIGTERM, shutting down
+[Thu Jun 10 17:24:41.813 2010] [17074] shutdown complete
+[Thu Jun 10 17:26:24.657 2010] [21038] accepting connections
+[Wed Jun 16 15:52:43.488 2010] [32378] accepting connections
+[Mon Jul  5 18:25:41.654 2010] [32378] rotating indices (seamless=1)
+[Mon Jul  5 18:25:41.715 2010] [32378] rotating index 'performance_core': success
+[Mon Jul  5 18:25:41.715 2010] [32378] rotating finished
+[Mon Jul  5 18:25:43.017 2010] [32378] rotating indices (seamless=1)
+[Mon Jul  5 18:25:43.018 2010] [32378] rotating index 'performance_core': success
+[Mon Jul  5 18:25:43.018 2010] [32378] rotating finished
+[Tue Jul  6 08:03:39.305 2010] [32378] rotating indices (seamless=1)
+[Tue Jul  6 08:03:39.373 2010] [32378] rotating index 'performance_core': success
+[Tue Jul  6 08:03:39.374 2010] [32378] rotating finished
+[Tue Jul  6 08:03:40.837 2010] [32378] rotating indices (seamless=1)
+[Tue Jul  6 08:03:40.838 2010] [32378] rotating index 'performance_core': success
+[Tue Jul  6 08:03:40.838 2010] [32378] rotating finished
+[Tue Jul  6 08:05:31.832 2010] [32378] rotating indices (seamless=1)
+[Tue Jul  6 08:05:31.835 2010] [32378] rotating index 'performance_core': success
+[Tue Jul  6 08:05:31.835 2010] [32378] rotating finished
+[Tue Jul  6 08:05:33.118 2010] [32378] rotating indices (seamless=1)
+[Tue Jul  6 08:05:33.119 2010] [32378] rotating index 'performance_core': success
+[Tue Jul  6 08:05:33.119 2010] [32378] rotating finished
+[Wed Jul  7 18:48:40.328 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 18:48:40.470 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 18:48:40.470 2010] [32378] rotating finished
+[Wed Jul  7 18:48:41.516 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 18:48:41.517 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 18:48:41.517 2010] [32378] rotating finished
+[Wed Jul  7 19:03:00.269 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 19:03:00.330 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 19:03:00.331 2010] [32378] rotating finished
+[Wed Jul  7 19:03:01.861 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 19:03:01.863 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 19:03:01.863 2010] [32378] rotating finished
+[Wed Jul  7 20:23:29.570 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 20:23:29.656 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 20:23:29.656 2010] [32378] rotating finished
+[Wed Jul  7 20:23:31.126 2010] [32378] rotating indices (seamless=1)
+[Wed Jul  7 20:23:31.127 2010] [32378] rotating index 'performance_core': success
+[Wed Jul  7 20:23:31.127 2010] [32378] rotating finished
+[Wed Jul 21 20:31:42.076 2010] [ 9624] accepting connections
+[Sun Aug  8 21:31:59.178 2010] [ 9624] rotating indices (seamless=1)
+[Sun Aug  8 21:31:59.354 2010] [ 9624] rotating index 'performance_core': success
+[Sun Aug  8 21:31:59.354 2010] [ 9624] rotating finished
+[Sun Aug  8 21:32:00.384 2010] [ 9624] rotating indices (seamless=1)
+[Sun Aug  8 21:32:00.386 2010] [ 9624] rotating index 'performance_core': success
+[Sun Aug  8 21:32:00.386 2010] [ 9624] rotating finished
+[Sat Sep 11 10:18:00.658 2010] [ 3515] accepting connections
+[Wed Oct  6 09:33:08.717 2010] [20276] accepting connections
+[Tue May 17 17:37:38.997 2011] [13172] accepting connections
+[Tue May 24 23:23:28.612 2011] [13172] caught SIGTERM, shutting down
+[Tue May 24 23:23:28.657 2011] [13172] shutdown complete
+[Tue May 24 23:24:53.270 2011] [14971] accepting connections
+[Sun Jun  5 21:37:48.103 2011] [14971] caught SIGTERM, shutting down
+[Sun Jun  5 21:37:48.149 2011] [14971] shutdown complete
+[Sun Jun  5 21:38:19.027 2011] [ 7834] accepting connections
+[Tue Jul  5 20:44:53.324 2011] [ 6859] accepting connections
+[Wed Jul  6 07:43:36.057 2011] [ 6859] caught SIGTERM, shutting down
+[Wed Jul  6 07:43:36.110 2011] [ 6859] shutdown complete
+[Wed Jul  6 07:43:45.173 2011] [31867] accepting connections
+[Wed Jul  6 07:48:38.852 2011] [31867] caught SIGTERM, shutting down
+[Wed Jul  6 07:48:38.852 2011] [31867] shutdown complete
+[Wed Jul  6 07:48:47.470 2011] [14256] accepting connections
+[Wed Jul 27 22:37:52.949 2011] [28841] accepting connections
+[Mon Aug  1 18:01:48.836 2011] [ 1158] accepting connections
+[Mon Aug  8 21:03:40.164 2011] [16154] accepting connections
+[Tue Aug  9 18:14:43.346 2011] [ 5578] accepting connections
+[Thu Sep  8 09:10:19.700 2011] [14654] accepting connections
+[Tue Sep 20 22:19:11.940 2011] [13607] accepting connections
+[Wed Oct 12 14:13:09.566 2011] [ 2873] accepting connections
+[Thu Nov 17 10:30:51.816 2011] [ 2873] caught SIGTERM, shutting down
+[Thu Nov 17 10:30:51.919 2011] [ 2873] shutdown complete
+[Thu Nov 17 10:31:05.569 2011] [16535] accepting connections
+[Wed Dec 21 09:29:24.715 2011] [16535] caught SIGTERM, shutting down
+[Wed Dec 21 09:29:24.765 2011] [16535] shutdown complete
+[Wed Dec 21 09:29:36.846 2011] [26767] accepting connections

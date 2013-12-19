@@ -1,0 +1,53 @@
+<% content_for :title, "Master List of Tours" %>
+
+<div id="title">
+	<div class="cell">
+    	<h1>Tours</h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master List of Tours</h2>
+	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new tour', new_tour_path %> to the site!</p>
+		<div class="padding">
+			<% @tours.each do |tour| %>
+			<div class="performance_listing">
+				<p>
+					<%= image_tag tour.band.photo.url(:avatar), :align => 'middle', :style => 'margin: .3em 1em 1em 0;' %>
+				</p>	
+				<div class="performance_text">
+					<strong><%= link_to tour.name, tour %></strong>
+					<span class="details dark">
+						<%= link_to tour.band.name, tour.band %> | <strong><%= tour.performances.count %></strong> Performances :: 
+							[ <%= link_to 'Edit', edit_tour_path(tour) %>
+						    <% if current_user %>
+								<% if current_user.admin? %>
+									| <strong><%= link_to 'Destroy', tour, :confirm => 'Are you sure?', :method => :delete %></strong>
+								<% end %>
+							<% end %> ]
+						</span>
+					</div>
+			</div>
+			<% end %>
+			
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>
+

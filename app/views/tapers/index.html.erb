@@ -1,0 +1,49 @@
+<% content_for :title, "Master List of Tapers" %>
+
+<div id="title">
+	<div class="cell">
+    	<h1>Tapers</h1>
+    </div>
+</div>
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master List of Tapers</h2>
+	</div>
+</div>
+
+
+
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a taper', new_taper_path %> to the site!</p>
+		<div class="padding">
+			<%= will_paginate @tapers %>
+			<% @tapers.each do |taper| %>
+				<p>
+					<strong><%= link_to taper.name, taper %></strong><br /> 
+					<span class="small_gray">Number of recordings: <%= taper.recordings.count %></span>
+				</p>
+			<% end %>
+		
+		<%= will_paginate @tapers %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<p>
+					<%= image_tag 'icons/add.png', :align => 'absmiddle' %>
+					<%= link_to 'New taper', new_taper_path %>
+				</p>
+				
+				<%= render 'layouts/master_view_controls_hr' %>
+			</div>
+		</div>
+	</div>
+</div>				
+    
+
+			

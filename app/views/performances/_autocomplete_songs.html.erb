@@ -1,0 +1,5 @@
+<div class="fields">
+	<p><%= f.label :song_name, "Song" %></p>
+	<%= text_field_with_auto_complete :played_songs, :song_name, { :size => 40 }, { :url => formatted_songs_path(:js), :method => :get, :param_name => 'search' }  %>
+	<%= link_to_remove_fields "remove", f %>
+</div>

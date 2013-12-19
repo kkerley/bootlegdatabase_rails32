@@ -1,0 +1,42 @@
+<% content_for :title, "Contact" %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Contact us</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Got a question? Concern? Suggestion? Bug report?</h2>
+	</div>
+</div>
+
+<div id="content">
+	<div id="left-col">
+		<div class="padding">
+			<p>We're happy to hear from you and value whatever it is you have to say.  Even if it's that you think we suck. We constantly want to make this site better
+			and any feedback is helpful. We'd appreciate constructive, nice feedback, but you can't always get what you want.</p>
+			<% form_for(:contact, :url => contact_path) do |form| %>	 
+				
+				<p><%= form.label :name %><br />
+					<%= form.text_field :name %>
+				</p>
+				
+				<p><%= form.label :email %><br />
+					<%= form.text_field :email %>
+				</p>
+				<p><%= form.label :subject, "What's up?" %><br />
+					<%= form.text_field :subject %>
+				</p>
+				<p><%= form.label :body, "Elaborate" %><br />
+					<%= form.text_area :body, :rows => 10 %>
+				</p>
+				<p class="submit_btn">	
+					<%= form.submit "Send" %>
+				</p>
+			 <% end %>
+		</div>
+	</div>
+</div>	

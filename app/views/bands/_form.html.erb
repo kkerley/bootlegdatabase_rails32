@@ -1,0 +1,22 @@
+<% form_for @band, :html => { :multipart => true }  do |f| %>
+	
+	<%= f.error_messages %>
+	<p>
+		<%= f.label :name %><br />
+		<%= f.text_field :name %>
+	</p>
+	<p>
+		<%= f.label :description, "Info" %><br />
+		<%= f.text_area :description, :rows => 8 %>		
+	<p>
+		
+	<p>
+		<%= f.label :photo, "Logo" %><br />
+		<%= f.file_field :photo %>	
+	</p>
+	
+	<p class="submit_btn">
+		<%= f.submit 'Submit' %>
+	</p>
+
+<% end %>

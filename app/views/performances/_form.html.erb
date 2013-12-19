@@ -1,0 +1,86 @@
+<% form_for @performance, :html => { :multipart => true } do |f| %>
+	
+		<%= f.error_messages %>
+		
+		<p><%= f.label :date %>
+			<div class="date_selection"><%= f.date_select :date, :start_year => (Date.today.year), :end_year => (Date.today.year - 30) %></div>
+		</p>
+		<p><%= f.label :venue_name %><br />
+			<%= f.text_field :venue_name, :size => '47' %>
+		</p> 
+		
+		<p><%= f.label :tour_name %><br />
+			<%= f.text_field :tour_name, :size => '47' %>
+		</p> 
+		
+		<%= render 'layouts/textile_call_out' %>
+		<p><%= f.label :description, "Show notes" %><br />
+			<%= f.text_area :description, :rows => 10 %>
+		</p>
+	  
+	  	
+	  
+		
+		<% unless f.object.new_record? %>
+			
+				<% f.fields_for :recordings do |builder| %>
+					<%= render 'recording_fields', :f => builder %>
+				<% end %>
+			
+		
+				<p class="add bold">
+					<%= image_tag 'icons/add.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+					<%= link_to_add_fields "Add recording", f, :recordings %>
+				</p>
+			
+			
+			<div class="call_out_red">
+				<p>The database has all of the songs NIN has ever played live in it already. Simply type the name of the song and when
+				the page is submitted, they will be added to the performance from the existing table of songs.</p>
+				<p>Right now, the site defaults to 25 songs per show. If there are less, that's fine. Empty fields will be ignored upon submitting.
+				If there are more, please add them! Just know that, for the time being, auto-complete will not work on fields added via the "Add song" link.</p>
+			</div>
+			
+			<% if @performance.content_complete %>
+				<% @songs = @performance.songs %>
+				<ul>
+				<% for song in @songs do %>
+					<li><%= song.name %></li>
+				<% end %>
+				</ul>
+			<% else %>
+				<div class="inline_fields">
+					<% f.fields_for :played_songs do |builder| %>
+						<%= render 'played_song_fields', :f => builder %>
+					<% end %>	
+				
+					<p class="add bold">
+						<%= image_tag 'icons/add.png', :align => 'absmiddle', :style => 'background-color: #fff; border: none; padding: 0;' %>
+						<%= link_to_add_fields "Add song", f, :played_songs %>
+					</p>
+				</div>
+			<% end %>
+			<% unless @performance.content_complete %>
+				<p>
+					<%= f.check_box :content_complete %>
+					<strong>This setlist is complete and final</strong><br /><br />
+				</p>
+			<% end %>
+			
+			<% if @performance.content_complete %>
+				<% if current_user && current_user.admin? %>
+					<p>
+						<%= f.check_box :content_complete %>
+						<strong>This setlist is complete and final</strong><br /><br />
+					</p>
+				<% end %>
+			<% end %>
+		<% end %>
+	  	
+		<% if f.object.new_record? %>
+			<p class="bold">Songs will be added on the next page after submitting this information.</p>
+		<% end %>
+		<p>
+			<%= f.submit 'Submit' %>
+		</p>
+<% end %>

@@ -1,0 +1,56 @@
+<% content_for :title, "Master List of Recordings" %>
+<div id="title">
+	<div class="cell">
+		<h1>Recordings</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master list of all Recordings</h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new recording', new_recording_path %> to the site!</p>
+		<div class="padding">
+			<%= will_paginate @recordings %>
+			<% @recordings.each do |recording| %>
+				
+				
+				<div class="performance_listing">
+					<p>
+						<img src="/images/icons/<%= recording.recording_format %>.png" alt="<%= recording.recording_format %>" style="margin-bottom: 1em; margin-top: .25em;" />
+					</p>
+					<div class="performance_text">
+						<%= link_to recording.name, recording %><br />
+						
+						
+						
+						<span class="details dark">
+						  <%= link_to 'View performance page', recording.performance %>  ::
+							
+							[ <%= link_to 'Edit', edit_recording_path(recording) %>
+						    <% if current_user %>
+								<% if current_user.admin? %>
+									| <strong><%= link_to 'Destroy', recording, :confirm => 'Are you sure?', :method => :delete %></strong>
+								<% end %>
+							<% end %> ]
+						</span>
+					</div>
+			</div>
+			<% end %>
+			<%= will_paginate @recordings %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>				

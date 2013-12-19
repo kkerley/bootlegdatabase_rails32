@@ -1,0 +1,76 @@
+<% content_for :title, "Editing bands for " + @performer.name %>
+
+<div id="title">
+	<div class="cell">
+		<h1><%=h @performer.name %>'s bands</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2><%= link_to 'performers', performers_path %></h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">What bands is this performer in?</p>
+		<div class="padding">
+			<% if @bands.length > 0 %>
+				<% form_tag (band_remove_performer_path(@performer)) do %>
+				
+					<table>
+						<tr>
+							<th>Band</th>
+							<th>Remove?</th>
+						</tr>
+					<% for band in @bands do %>
+						<tr>
+							<td><%=h band.name %></td>
+							<td><%= check_box_tag "bands[]", band.id %></td>
+						</tr>
+					<% end %>
+					</table>
+					<p class="submit_btn">
+						<%= submit_tag "Remove checked bands" %>
+					</p>
+					
+				<% end %>
+			<% else %>
+				<p>Not a member of any bands yet</p>
+			<% end %>
+			
+			<h3>Join new bands</h3>
+			<% if @performer.bands.count < Band.count then %>
+				<% form_tag(band_add_performer_path(@performer)) do %>
+					<fieldset>
+						<%= select_tag(:band, options_from_collection_for_select(@performer.does_not_perform_with, :id, :name)) %>
+						<p class="submit_btn">
+							<%= submit_tag "Add to band" %>
+						</p>
+					</fieldset>
+				<% end %>
+			<% else %>
+				<%=h @performer.name %> is a member of every band on this site.
+			<% end %>
+		</div>
+	</div>	
+
+
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<%= image_tag @performer.photo.url(:large) %>
+			</div>
+		</div>		
+		<div id="controls">
+        	<p class="headline">Controls</p>
+			<div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', performers_path %> editing band list
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

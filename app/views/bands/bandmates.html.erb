@@ -1,0 +1,11 @@
+<h1><%=h @band.name%></h1>
+<h2>Members</h2>
+<ul>
+<% for performer in @band.performers do %>
+	<li><%= link_to performer.name, performer %></li>
+<% end %>
+</ul>
+
+
+<p><%= link_to 'Edit', edit_band_path(@band) %> |
+<%= link_to 'Back', bands_path %></p>

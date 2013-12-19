@@ -1,0 +1,46 @@
+<% content_for :title, "Master List of Bands" %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Bands</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master list of all Bands</h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<div class="padding">
+			<p>
+				For the time being, adding new bands isn't possible. Once the test phase using NIN has been completed, this will be opened to any and all bands.
+				Adding a new band requires an admin account.
+			</p>	
+		</div>
+		<p class="headline"><%= link_to 'Add a new band', new_band_path %> to the site!</p>
+		<div class="padding">
+			<% @bands.each do |band| %>
+			<div class="performance_text">
+				<strong><%= link_to band.name, band %></strong> 
+				<% if current_user %>
+					<% if current_user.admin? %>
+						<span class="details dark"><strong>[ <%= link_to 'Destroy', band, :confirm => 'Are you sure?', :method => :delete %> ]</strong></span>
+					<% end %>
+				<% end %>			 
+			</div>	
+			<% end %>
+		</div>
+	</div>
+
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>

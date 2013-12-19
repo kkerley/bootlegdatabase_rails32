@@ -1,0 +1,31 @@
+<% form_for(@recording) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :performance %><br />
+    <%= f.select :performance_id, Performance.find(:all, :order => "date DESC" ).collect{ |v| [(v.compact), v.id]}%>
+  </p>
+  <p>
+    <%= f.label :taper_name %><br />
+    <%= f.text_field :taper_name %>
+  </p>
+  <p>
+    <%= f.label :recording_format %><br />
+    <%= f.select :recording_format, {"Audio" => "audio", "Audio Remaster" => "audio_remaster", "Video" => "video", "Video Remaster" => "video_remaster"} %>
+  </p>
+  <p>
+    <%= f.label :lineage %><br />
+    <%= f.text_area :lineage, :rows => 2 %>
+  </p>
+  <p>
+    <%= f.label :notes %><br />
+    <%= f.text_area :notes, :rows => 5 %>
+  </p>
+  <p>
+    <%= f.label :link %><br />
+    <%= f.text_field :link %>
+  </p>
+  <p>
+    <%= f.submit 'Submit' %>
+  </p>
+<% end %>

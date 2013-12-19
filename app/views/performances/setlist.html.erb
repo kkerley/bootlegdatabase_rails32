@@ -1,0 +1,88 @@
+<% content_for :title, "Adjust the setlist order for " + @performance.compact %>
+
+<div id="title">
+	<div class="cell">
+    	<h1><%=h @performance.compact %></h1>
+    </div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+    	<h2><%= link_to @performance.tour.band.name, @performance.tour.band %> | <%= link_to @performance.tour.name, @performance.tour %></h2>
+    </div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline">Editing song order</p>
+		<div class="padding">
+			<p>This page is here only in the event some database trickery is needed to get the song order correct. The database is 
+			set up in such a way that songs SHOULD appear in the order in which they were added to the performance. If a mid-set 
+			song is removed and re-added or another is added in its place, it will appear at the end.</p>
+			<p>Even if songs were inserted in the correct order when adding them, they don't always show in the correct order. They SHOULD
+			be correct on this page and simply tabbing through the inputs incrementing by 1 each time is all that's needed to get
+			the order correct when displaying the setlist.</p>
+			<p class="bold">This page will allow you to hard code the order in which the song appears.  Every song defaults to a nil/null play_order so if you adjust one, you 
+			have to adjust them all.</p>
+
+
+			<% form_for @performance do |f| %>
+			
+				<%= f.error_messages %>
+					<p class="call_out_red">
+						
+						<%= f.check_box :modified_order %>
+						<strong>This box MUST be checked in order for changes made here to be reflected</strong>
+					</p>
+				
+					<% f.fields_for :played_songs do |builder| %>
+						<%= render 'song_order', :f => builder %>
+					<% end %>
+					
+				<p class="submit_btn">
+					<%= f.submit 'Submit' %><br /><br />
+				</p>
+			
+			<% end %>
+		</div>
+	</div>	
+	<div id="right-col">
+		<div id="band_pics">
+			<div class="logo">
+				<%= link_to image_tag(@performance.tour.band.photo.url(:large), :border => 0, :alt => @performance.tour.band.name), @performance.tour.band %></span>
+			</div>
+			<div class="band_members">
+			<% if @performance.performers.count > 0 %>	
+				<% for performer in @performance.performers do %>
+					<%= link_to image_tag(performer.photo.url(:avatar),  :align => 'middle', :border => 0, :alt => performer.name ), performer  %> 
+				<% end %>
+			<% end %>
+			</div>
+		</div>
+		
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<p>
+					<%= image_tag 'icons/cancel.png', :align => 'absmiddle' %>
+					<%= link_to 'Cancel', @performance %> these edits
+				</p>
+				
+				
+				<p>
+					<%= image_tag 'icons/group_add.png', :align => 'absmiddle' %>
+					<%= link_to 'Add band members', performers_performance_path(@performance) %> to this performance
+				</p> 
+					
+					 
+				<p>
+					<%= image_tag 'icons/map.png', :align => 'absmiddle' %>
+					View performance <%= link_to 'venue', @performance.venue %> and <%= link_to 'address', @performance.address %>
+				</p>
+				<p>
+					<%= image_tag 'icons/world.png', :align => 'absmiddle' %>
+					See all <%= link_to @performance.tour.name, tour_path(@performance.tour.permalink) %> performances
+				</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,54 @@
+<% content_for :title, "Master List of Performers" %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Performers</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master list of all Performers</h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new performer', new_performer_path %> to the site!</p>
+		<div class="padding">
+			<%= will_paginate @performers %>
+			<% @performers.each do |performer| %>
+				<div class="performance_listing">
+					<p>
+						<%= link_to image_tag(performer.photo.url(:avatar),  :align => 'middle', :border => 0, :alt => performer.name ), performer  %>
+			    	</p>	
+					
+					<div class="performance_text">
+						<strong><%= link_to performer.name, performer %></strong>
+						
+						<span class="details dark">
+						    <strong><%= performer.performances.count %></strong> performances :: [ <%= link_to 'Edit', edit_performer_path(performer) %>
+						    <% if current_user %>
+								<% if current_user.admin? %>
+									| <strong><%= link_to 'Destroy', performer, :confirm => 'Are you sure?', :method => :delete %></strong>
+								<% end %>
+							<% end %> ]
+						</span>
+					</div>
+			</div>
+			<% end %>
+			<%= will_paginate @performers %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>
+
+

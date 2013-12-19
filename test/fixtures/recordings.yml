@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  performance_id: 
+  taper: MyString
+  format: MyString
+  lineage: MyText
+  notes: MyText
+  link: MyString
+
+two:
+  performance_id: 
+  taper: MyString
+  format: MyString
+  lineage: MyText
+  notes: MyText
+  link: MyString

@@ -1,0 +1,50 @@
+<% content_for :title, "Master List of Addresses" %>
+
+<div id="title">
+	<div class="cell">
+		<h1>Addresses</h1>
+	</div>
+</div>
+
+
+<div id="subtitle">
+	<div class="cell">
+		<h2>Master list of all Addresses</h2>
+	</div>
+</div>
+<div id="content">
+	<div id="left-col">
+		<p class="headline"><%= link_to 'Add a new address', new_address_path %> to the site!</p>
+		<div class="padding">
+			<%= will_paginate @addresses %>
+			<% @addresses.each do |address| %>
+				<div class="performance_listing">
+				
+					<div class="performance_text">
+						<strong><%= link_to address.usable, address %></strong>  
+					    
+						<span class="details dark">
+				 			Venues at this address: <%= address.venues.count %> ::  
+							[ <%= link_to 'Edit', edit_address_path(address) %>
+					    <% if current_user %>
+							<% if current_user.admin? %>
+								| <strong><%= link_to 'Destroy', address, :confirm => 'Are you sure?', :method => :delete %></strong>
+							<% end %>
+						<% end %> ]
+						</span>
+					</div>
+				</div>
+			<% end %>
+			<%= will_paginate @addresses %>
+		</div>
+	</div>
+	
+	<div id="right-col">
+		<p class="headline">Controls</p>
+        <div id="controls">
+            <div class="padding">
+				<%= render 'layouts/master_view_controls' %>
+			</div>
+		</div>
+	</div>
+</div>
